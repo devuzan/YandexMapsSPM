@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "YandexMapsMobile",
-            url: "https://github.com/vfn/GoogleMaps-SP/releases/download/5.0.0-M1/GoogleMaps.xcframework.zip",
+            url: "https://github.com/DmitryTetenyuk/YandexMapsSPM/releases/download/4.0.0-lite/YandexMapsMobile.xcframework.zip",
             checksum: "10312b4f33febc934721063ac3755eb91f35143df48770be916d21077c20c99b"
         )
     ]

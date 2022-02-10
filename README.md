@@ -9,7 +9,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP.git", .upToNextMinor(from: "5.0.0"))
+    .package(url: "https://github.com/DmitryTetenyuk/YandexMapsSPM.git", .upToNextMinor(from: "4.0.0"))
 ]
 ```
 
