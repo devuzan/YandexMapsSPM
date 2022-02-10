@@ -1,0 +1,1812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A68E3CB27B5608600E04625 /* YRTVectorBinding_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E28B27B5608400E04625 /* YRTVectorBinding_Private.h */; };
+		0A68E3CC27B5608600E04625 /* YMKLocationLocationListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E28C27B5608400E04625 /* YMKLocationLocationListener.h */; };
+		0A68E3CD27B5608600E04625 /* YMKMapCameraListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E28D27B5608400E04625 /* YMKMapCameraListener.h */; };
+		0A68E3CE27B5608600E04625 /* YMKRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E28E27B5608400E04625 /* YMKRect.h */; };
+		0A68E3CF27B5608600E04625 /* YMKLayersGeoObjectTapListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E28F27B5608400E04625 /* YMKLayersGeoObjectTapListener.h */; };
+		0A68E3D027B5608600E04625 /* YMKCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29027B5608400E04625 /* YMKCallback.h */; };
+		0A68E3D127B5608600E04625 /* YMKPlacemarkAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29127B5608400E04625 /* YMKPlacemarkAnimation.h */; };
+		0A68E3D227B5608600E04625 /* YMKIconSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29227B5608400E04625 /* YMKIconSet.h */; };
+		0A68E3D327B5608600E04625 /* YRTExtern.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29327B5608400E04625 /* YRTExtern.h */; };
+		0A68E3D427B5608600E04625 /* YMKMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29427B5608400E04625 /* YMKMap.h */; };
+		0A68E3D527B5608600E04625 /* YMKIndoorStateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29527B5608400E04625 /* YMKIndoorStateListener.h */; };
+		0A68E3D627B5608600E04625 /* YMKOfflineCacheRegionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29627B5608400E04625 /* YMKOfflineCacheRegionState.h */; };
+		0A68E3D727B5608600E04625 /* YMKCoverageRegionsSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29727B5608400E04625 /* YMKCoverageRegionsSession.h */; };
+		0A68E3D827B5608600E04625 /* YMKCameraUpdateReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29827B5608400E04625 /* YMKCameraUpdateReason.h */; };
+		0A68E3D927B5608600E04625 /* YMKUiExperimentsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29927B5608400E04625 /* YMKUiExperimentsManager.h */; };
+		0A68E3DA27B5608600E04625 /* YMKStorageStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29A27B5608400E04625 /* YMKStorageStorageManager.h */; };
+		0A68E3DB27B5608600E04625 /* YMKGlyphsGlyphUrlProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29B27B5608400E04625 /* YMKGlyphsGlyphUrlProvider.h */; };
+		0A68E3DC27B5608600E04625 /* YRTAnimatedModelProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29C27B5608400E04625 /* YRTAnimatedModelProvider.h */; };
+		0A68E3DD27B5608600E04625 /* YMKTileFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29D27B5608400E04625 /* YMKTileFormat.h */; };
+		0A68E3DE27B5608600E04625 /* YMKGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29E27B5608400E04625 /* YMKGeometry.h */; };
+		0A68E3DF27B5608600E04625 /* YMKTestStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E29F27B5608400E04625 /* YMKTestStruct.h */; };
+		0A68E3E027B5608600E04625 /* YMKSublayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A027B5608400E04625 /* YMKSublayerManager.h */; };
+		0A68E3E127B5608600E04625 /* YMKProjections.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A127B5608400E04625 /* YMKProjections.h */; };
+		0A68E3E227B5608600E04625 /* YMKLocalizedValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A227B5608400E04625 /* YMKLocalizedValue.h */; };
+		0A68E3E327B5608600E04625 /* YMKGeoObjectCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A327B5608400E04625 /* YMKGeoObjectCollection.h */; };
+		0A68E3E427B5608600E04625 /* YMKLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A427B5608400E04625 /* YMKLayer.h */; };
+		0A68E3E527B5608600E04625 /* YMKMapObjectVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A527B5608400E04625 /* YMKMapObjectVisitor.h */; };
+		0A68E3E627B5608600E04625 /* YMKGeoObjectTapEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A627B5608400E04625 /* YMKGeoObjectTapEvent.h */; };
+		0A68E3E727B5608600E04625 /* YMKGlyphsDefaultUrlProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A727B5608400E04625 /* YMKGlyphsDefaultUrlProvider.h */; };
+		0A68E3E827B5608600E04625 /* YMKRoadEventsRoadEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A827B5608400E04625 /* YMKRoadEventsRoadEvents.h */; };
+		0A68E3E927B5608600E04625 /* YRTLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2A927B5608400E04625 /* YRTLogger.h */; };
+		0A68E3EA27B5608600E04625 /* YMKCoverageRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2AA27B5608400E04625 /* YMKCoverageRegion.h */; };
+		0A68E3EB27B5608600E04625 /* YMKLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2AB27B5608400E04625 /* YMKLocation.h */; };
+		0A68E3EC27B5608600E04625 /* YRTSubscriptionLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2AC27B5608400E04625 /* YRTSubscriptionLogger.h */; };
+		0A68E3ED27B5608600E04625 /* YMKOfflineCacheDataMoveListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2AD27B5608400E04625 /* YMKOfflineCacheDataMoveListener.h */; };
+		0A68E3EE27B5608600E04625 /* YRTNativeObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2AE27B5608400E04625 /* YRTNativeObject.h */; };
+		0A68E3EF27B5608600E04625 /* YMKMapType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2AF27B5608400E04625 /* YMKMapType.h */; };
+		0A68E3F027B5608600E04625 /* YMKSublayerFeatureFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B027B5608400E04625 /* YMKSublayerFeatureFilter.h */; };
+		0A68E3F127B5608600E04625 /* YMKRawTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B127B5608400E04625 /* YMKRawTile.h */; };
+		0A68E3F227B5608600E04625 /* YMKRotationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B227B5608400E04625 /* YMKRotationType.h */; };
+		0A68E3F327B5608600E04625 /* YRTImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B327B5608400E04625 /* YRTImage.h */; };
+		0A68E3F427B5608600E04625 /* YMKMapInputListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B427B5608400E04625 /* YMKMapInputListener.h */; };
+		0A68E3F527B5608600E04625 /* YRTAnimatedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B527B5608400E04625 /* YRTAnimatedImageProvider.h */; };
+		0A68E3F627B5608600E04625 /* YMKPlacemarksStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B627B5608400E04625 /* YMKPlacemarksStyler.h */; };
+		0A68E3F727B5608600E04625 /* YMKTileProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B727B5608400E04625 /* YMKTileProvider.h */; };
+		0A68E3F827B5608600E04625 /* YMKLogoAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B827B5608400E04625 /* YMKLogoAlignment.h */; };
+		0A68E3F927B5608600E04625 /* YRTAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2B927B5608400E04625 /* YRTAnimatedImage.h */; };
+		0A68E3FA27B5608600E04625 /* YMKMapKitFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2BA27B5608400E04625 /* YMKMapKitFactory.h */; };
+		0A68E3FB27B5608600E04625 /* YMKMapObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2BB27B5608400E04625 /* YMKMapObject.h */; };
+		0A68E3FC27B5608600E04625 /* YMKMapObjectCollectionListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2BC27B5608400E04625 /* YMKMapObjectCollectionListener.h */; };
+		0A68E3FD27B5608600E04625 /* YMKMapkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2BD27B5608400E04625 /* YMKMapkit.h */; };
+		0A68E3FE27B5608600E04625 /* YMKDefaultResourceUrlProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2BE27B5608400E04625 /* YMKDefaultResourceUrlProvider.h */; };
+		0A68E3FF27B5608600E04625 /* YMKLocationViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2BF27B5608400E04625 /* YMKLocationViewFactory.h */; };
+		0A68E40027B5608600E04625 /* YMKUriObjectMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C027B5608400E04625 /* YMKUriObjectMetadata.h */; };
+		0A68E40127B5608600E04625 /* YMKPolylineBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C127B5608400E04625 /* YMKPolylineBuilder.h */; };
+		0A68E40227B5608600E04625 /* YMKTaxiMoney.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C227B5608400E04625 /* YMKTaxiMoney.h */; };
+		0A68E40327B5608600E04625 /* YRTRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C327B5608400E04625 /* YRTRuntime.h */; };
+		0A68E40427B5608600E04625 /* YMKOfflineCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C427B5608400E04625 /* YMKOfflineCacheManager.h */; };
+		0A68E40527B5608600E04625 /* YRTPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C527B5608400E04625 /* YRTPrefs.h */; };
+		0A68E40627B5608600E04625 /* YRTArchivingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C627B5608400E04625 /* YRTArchivingUtilities.h */; };
+		0A68E40727B5608600E04625 /* YMKDummyLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C727B5608400E04625 /* YMKDummyLocationManager.h */; };
+		0A68E40827B5608600E04625 /* YMKMapObjectTapListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C827B5608400E04625 /* YMKMapObjectTapListener.h */; };
+		0A68E40927B5608600E04625 /* YRTModelProviderFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2C927B5608400E04625 /* YRTModelProviderFactory.h */; };
+		0A68E40A27B5608600E04625 /* YMKMapSizeChangedListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2CA27B5608400E04625 /* YMKMapSizeChangedListener.h */; };
+		0A68E40B27B5608600E04625 /* YMKArrowTapListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2CB27B5608400E04625 /* YMKArrowTapListener.h */; };
+		0A68E40C27B5608600E04625 /* YMKZoomRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2CC27B5608400E04625 /* YMKZoomRange.h */; };
+		0A68E40D27B5608600E04625 /* YMKOfflineMapRegionListUpdatesListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2CD27B5608400E04625 /* YMKOfflineMapRegionListUpdatesListener.h */; };
+		0A68E40E27B5608600E04625 /* YMKPointOfView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2CE27B5608400E04625 /* YMKPointOfView.h */; };
+		0A68E40F27B5608600E04625 /* YMKModelStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2CF27B5608400E04625 /* YMKModelStyle.h */; };
+		0A68E41027B5608600E04625 /* YMKCameraPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D027B5608400E04625 /* YMKCameraPosition.h */; };
+		0A68E41127B5608600E04625 /* YMKOverzoomMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D127B5608400E04625 /* YMKOverzoomMode.h */; };
+		0A68E41227B5608600E04625 /* YMKLocationViewSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D227B5608400E04625 /* YMKLocationViewSource.h */; };
+		0A68E41327B5608600E04625 /* YMKSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D327B5608400E04625 /* YMKSpan.h */; };
+		0A68E41427B5608600E04625 /* YMKColoredPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D427B5608400E04625 /* YMKColoredPolyline.h */; };
+		0A68E41527B5608600E04625 /* YMKMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D527B5608400E04625 /* YMKMapView.h */; };
+		0A68E41627B5608600E04625 /* YMKStyleType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D627B5608400E04625 /* YMKStyleType.h */; };
+		0A68E41727B5608600E04625 /* YMKArrivalObjectMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D727B5608400E04625 /* YMKArrivalObjectMetadata.h */; };
+		0A68E41827B5608600E04625 /* YMKSubpolylineHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D827B5608400E04625 /* YMKSubpolylineHelper.h */; };
+		0A68E41927B5608600E04625 /* YMKTrafficRoadEventTapInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2D927B5608400E04625 /* YMKTrafficRoadEventTapInfo.h */; };
+		0A68E41A27B5608600E04625 /* YRTAnimatedModelProviderFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2DA27B5608400E04625 /* YRTAnimatedModelProviderFactory.h */; };
+		0A68E41B27B5608600E04625 /* YMKCallback_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2DC27B5608400E04625 /* YMKCallback_Private.h */; };
+		0A68E41C27B5608600E04625 /* YMKLayersGeoObjectTapListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2DD27B5608400E04625 /* YMKLayersGeoObjectTapListener_Private.h */; };
+		0A68E41D27B5608600E04625 /* YMKVersion_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2DE27B5608400E04625 /* YMKVersion_Private.h */; };
+		0A68E41E27B5608600E04625 /* YMKTilesDefaultUrlProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2DF27B5608400E04625 /* YMKTilesDefaultUrlProvider_Private.h */; };
+		0A68E41F27B5608600E04625 /* YMKPlacemark_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E027B5608400E04625 /* YMKPlacemark_Private.h */; };
+		0A68E42027B5608600E04625 /* YMKOfflineCacheRegionListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E127B5608400E04625 /* YMKOfflineCacheRegionListener_Private.h */; };
+		0A68E42127B5608600E04625 /* YMKLocationViewSource_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E227B5608400E04625 /* YMKLocationViewSource_Private.h */; };
+		0A68E42227B5608600E04625 /* YMKPlacemarkAnimation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E327B5608400E04625 /* YMKPlacemarkAnimation_Private.h */; };
+		0A68E42327B5608600E04625 /* YMKOfflineCacheDataMoveListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E427B5608400E04625 /* YMKOfflineCacheDataMoveListener_Private.h */; };
+		0A68E42427B5608600E04625 /* YMKCoverageRegionsSession_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E527B5608400E04625 /* YMKCoverageRegionsSession_Private.h */; };
+		0A68E42527B5608600E04625 /* YMKColoredPolyline_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E627B5608400E04625 /* YMKColoredPolyline_Private.h */; };
+		0A68E42627B5608600E04625 /* YMKCluster_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E727B5608400E04625 /* YMKCluster_Private.h */; };
+		0A68E42727B5608600E04625 /* YMKVisibleRegion_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E827B5608400E04625 /* YMKVisibleRegion_Private.h */; };
+		0A68E42827B5608600E04625 /* YMKOfflineCacheManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2E927B5608400E04625 /* YMKOfflineCacheManager_Private.h */; };
+		0A68E42927B5608600E04625 /* YMKMapCameraListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2EA27B5608400E04625 /* YMKMapCameraListener_Private.h */; };
+		0A68E42A27B5608600E04625 /* YMKResourceUrlProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2EB27B5608400E04625 /* YMKResourceUrlProvider_Private.h */; };
+		0A68E42B27B5608600E04625 /* YMKStorageStorageManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2EC27B5608400E04625 /* YMKStorageStorageManager_Private.h */; };
+		0A68E42C27B5608600E04625 /* YRTNetworkRecording_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2ED27B5608400E04625 /* YRTNetworkRecording_Private.h */; };
+		0A68E42D27B5608600E04625 /* YMKCoverage_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2EE27B5608400E04625 /* YMKCoverage_Private.h */; };
+		0A68E42E27B5608600E04625 /* YRTErrors_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2EF27B5608400E04625 /* YRTErrors_Private.h */; };
+		0A68E42F27B5608600E04625 /* YRTRuntime_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F027B5608400E04625 /* YRTRuntime_Private.h */; };
+		0A68E43027B5608600E04625 /* YMKLayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F127B5608400E04625 /* YMKLayer_Private.h */; };
+		0A68E43127B5608600E04625 /* YMKMapLoadStatistics_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F227B5608400E04625 /* YMKMapLoadStatistics_Private.h */; };
+		0A68E43227B5608600E04625 /* YMKClusterListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F327B5608400E04625 /* YMKClusterListener_Private.h */; };
+		0A68E43327B5608600E04625 /* YMKMapkit_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F427B5608400E04625 /* YMKMapkit_Private.h */; };
+		0A68E43427B5608600E04625 /* YMKUriObjectMetadata_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F527B5608400E04625 /* YMKUriObjectMetadata_Private.h */; };
+		0A68E43527B5608600E04625 /* YMKMapObjectCollectionListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F627B5608400E04625 /* YMKMapObjectCollectionListener_Private.h */; };
+		0A68E43627B5608600E04625 /* YMKDummyLocationManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F727B5608400E04625 /* YMKDummyLocationManager_Private.h */; };
+		0A68E43727B5608600E04625 /* YMKPersonalizedPoiTapInfo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F827B5608400E04625 /* YMKPersonalizedPoiTapInfo_Private.h */; };
+		0A68E43827B5608600E04625 /* YMKSublayerFeatureFilter_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2F927B5608400E04625 /* YMKSublayerFeatureFilter_Private.h */; };
+		0A68E43927B5608600E04625 /* YMKPolygon_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2FA27B5608400E04625 /* YMKPolygon_Private.h */; };
+		0A68E43A27B5608600E04625 /* YMKLocationLocationListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2FB27B5608400E04625 /* YMKLocationLocationListener_Private.h */; };
+		0A68E43B27B5608600E04625 /* YMKAtomFeed_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2FC27B5608400E04625 /* YMKAtomFeed_Private.h */; };
+		0A68E43C27B5608600E04625 /* YMKRoadEventsRoadEvents_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2FD27B5608400E04625 /* YMKRoadEventsRoadEvents_Private.h */; };
+		0A68E43D27B5608600E04625 /* YMKLocationLocationManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2FE27B5608400E04625 /* YMKLocationLocationManager_Private.h */; };
+		0A68E43E27B5608600E04625 /* YMKTrafficLayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E2FF27B5608400E04625 /* YMKTrafficLayer_Private.h */; };
+		0A68E43F27B5608600E04625 /* YMKSpannableString_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30027B5608400E04625 /* YMKSpannableString_Private.h */; };
+		0A68E44027B5608600E04625 /* YMKIndoorPlan_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30127B5608400E04625 /* YMKIndoorPlan_Private.h */; };
+		0A68E44127B5608600E04625 /* YRTSubscriptionLogger_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30227B5608400E04625 /* YRTSubscriptionLogger_Private.h */; };
+		0A68E44227B5608600E04625 /* YRTViewProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30327B5608400E04625 /* YRTViewProvider_Private.h */; };
+		0A68E44327B5608600E04625 /* YMKIconSet_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30427B5608400E04625 /* YMKIconSet_Private.h */; };
+		0A68E44427B5608600E04625 /* YMKMap_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30527B5608400E04625 /* YMKMap_Private.h */; };
+		0A68E44527B5608600E04625 /* YMKLayerLoadedListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30627B5608400E04625 /* YMKLayerLoadedListener_Private.h */; };
+		0A68E44627B5608600E04625 /* YMKRoadEventsRoadEventsManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30727B5608400E04625 /* YMKRoadEventsRoadEventsManager_Private.h */; };
+		0A68E44727B5608600E04625 /* YMKAttribution_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30827B5608400E04625 /* YMKAttribution_Private.h */; };
+		0A68E44827B5608600E04625 /* YMKGlyphsGlyphUrlProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30927B5608400E04625 /* YMKGlyphsGlyphUrlProvider_Private.h */; };
+		0A68E44927B5608600E04625 /* YMKIconStyle_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30A27B5608400E04625 /* YMKIconStyle_Private.h */; };
+		0A68E44A27B5608600E04625 /* YMKLocation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30B27B5608400E04625 /* YMKLocation_Private.h */; };
+		0A68E44B27B5608600E04625 /* YMKSpan_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30C27B5608400E04625 /* YMKSpan_Private.h */; };
+		0A68E44C27B5608600E04625 /* YMKGeometry_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30D27B5608400E04625 /* YMKGeometry_Private.h */; };
+		0A68E44D27B5608600E04625 /* YMKScreenTypes_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30E27B5608400E04625 /* YMKScreenTypes_Private.h */; };
+		0A68E44E27B5608600E04625 /* YRTLocalError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E30F27B5608400E04625 /* YRTLocalError_Private.h */; };
+		0A68E44F27B5608600E04625 /* YMKPolyline_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31027B5608400E04625 /* YMKPolyline_Private.h */; };
+		0A68E45027B5608600E04625 /* YRTAccount_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31127B5608400E04625 /* YRTAccount_Private.h */; };
+		0A68E45127B5608600E04625 /* YMKMapObjectDragListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31227B5608500E04625 /* YMKMapObjectDragListener_Private.h */; };
+		0A68E45227B5608600E04625 /* YMKTrafficRoadEventTapInfo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31327B5608500E04625 /* YMKTrafficRoadEventTapInfo_Private.h */; };
+		0A68E45327B5608600E04625 /* YMKCameraPosition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31427B5608500E04625 /* YMKCameraPosition_Private.h */; };
+		0A68E45427B5608600E04625 /* YMKPlacemarksStyler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31527B5608500E04625 /* YMKPlacemarksStyler_Private.h */; };
+		0A68E45527B5608600E04625 /* YMKLocationSimulator_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31627B5608500E04625 /* YMKLocationSimulator_Private.h */; };
+		0A68E45627B5608600E04625 /* YMKCoverageIsCoveredSession_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31727B5608500E04625 /* YMKCoverageIsCoveredSession_Private.h */; };
+		0A68E45727B5608600E04625 /* YMKRoadEventsError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31827B5608500E04625 /* YMKRoadEventsError_Private.h */; };
+		0A68E45827B5608600E04625 /* YMKModelStyle_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31927B5608500E04625 /* YMKModelStyle_Private.h */; };
+		0A68E45927B5608600E04625 /* YMKViewArea_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31A27B5608500E04625 /* YMKViewArea_Private.h */; };
+		0A68E45A27B5608600E04625 /* YMKPoint_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31B27B5608500E04625 /* YMKPoint_Private.h */; };
+		0A68E45B27B5608600E04625 /* YMKCompositeIcon_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31C27B5608500E04625 /* YMKCompositeIcon_Private.h */; };
+		0A68E45C27B5608600E04625 /* YMKArrow_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31D27B5608500E04625 /* YMKArrow_Private.h */; };
+		0A68E45D27B5608600E04625 /* YMKClusterizedPlacemarkCollection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31E27B5608500E04625 /* YMKClusterizedPlacemarkCollection_Private.h */; };
+		0A68E45E27B5608600E04625 /* YMKObjectEvent_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E31F27B5608500E04625 /* YMKObjectEvent_Private.h */; };
+		0A68E45F27B5608600E04625 /* YMKCircle_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32027B5608500E04625 /* YMKCircle_Private.h */; };
+		0A68E46027B5608600E04625 /* YMKTileProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32127B5608500E04625 /* YMKTileProvider_Private.h */; };
+		0A68E46127B5608600E04625 /* YMKAnimation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32227B5608500E04625 /* YMKAnimation_Private.h */; };
+		0A68E46227B5608600E04625 /* YMKMapObjectCollection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32327B5608500E04625 /* YMKMapObjectCollection_Private.h */; };
+		0A68E46327B5608600E04625 /* YMKRequestPoint_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32427B5608500E04625 /* YMKRequestPoint_Private.h */; };
+		0A68E46427B5608600E04625 /* YMKMapObject_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32527B5608500E04625 /* YMKMapObject_Private.h */; };
+		0A68E46527B5608600E04625 /* YMKOfflineMapRegionListUpdatesListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32627B5608500E04625 /* YMKOfflineMapRegionListUpdatesListener_Private.h */; };
+		0A68E46627B5608600E04625 /* YMKGlyphsGlyphIdRange_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32727B5608500E04625 /* YMKGlyphsGlyphIdRange_Private.h */; };
+		0A68E46727B5608600E04625 /* YRTUpgradeRequiredError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32827B5608500E04625 /* YRTUpgradeRequiredError_Private.h */; };
+		0A68E46827B5608600E04625 /* YMKPersonalizedPoiLayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32927B5608500E04625 /* YMKPersonalizedPoiLayer_Private.h */; };
+		0A68E46927B5608600E04625 /* YMKTime_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32A27B5608500E04625 /* YMKTime_Private.h */; };
+		0A68E46A27B5608600E04625 /* YMKOfflineCacheCompletionHandler_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32B27B5608500E04625 /* YMKOfflineCacheCompletionHandler_Private.h */; };
+		0A68E46B27B5608600E04625 /* YMKTrafficListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32C27B5608500E04625 /* YMKTrafficListener_Private.h */; };
+		0A68E46C27B5608600E04625 /* YMKGeoObjectCollection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32D27B5608500E04625 /* YMKGeoObjectCollection_Private.h */; };
+		0A68E46D27B5608600E04625 /* YMKTilesUrlProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32E27B5608500E04625 /* YMKTilesUrlProvider_Private.h */; };
+		0A68E46E27B5608600E04625 /* YMKGeoObjectSelectionMetadata_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E32F27B5608500E04625 /* YMKGeoObjectSelectionMetadata_Private.h */; };
+		0A68E46F27B5608600E04625 /* YMKGeoObjectTapEvent_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33027B5608500E04625 /* YMKGeoObjectTapEvent_Private.h */; };
+		0A68E47027B5608600E04625 /* YMKMapObjectTapListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33127B5608500E04625 /* YMKMapObjectTapListener_Private.h */; };
+		0A68E47127B5608600E04625 /* YMKMapInputListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33227B5608500E04625 /* YMKMapInputListener_Private.h */; };
+		0A68E47227B5608600E04625 /* YMKMapWindow_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33327B5608500E04625 /* YMKMapWindow_Private.h */; };
+		0A68E47327B5608600E04625 /* YMKXyPoint_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33427B5608500E04625 /* YMKXyPoint_Private.h */; };
+		0A68E47427B5608600E04625 /* YRTMiidManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33527B5608500E04625 /* YRTMiidManager_Private.h */; };
+		0A68E47527B5608600E04625 /* YMKMapSizeChangedListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33627B5608500E04625 /* YMKMapSizeChangedListener_Private.h */; };
+		0A68E47627B5608600E04625 /* YMKInertiaMoveListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33727B5608500E04625 /* YMKInertiaMoveListener_Private.h */; };
+		0A68E47727B5608600E04625 /* YMKLayerOptions_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33827B5608500E04625 /* YMKLayerOptions_Private.h */; };
+		0A68E47827B5608600E04625 /* YMKDebugInfo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33927B5608500E04625 /* YMKDebugInfo_Private.h */; };
+		0A68E47927B5608600E04625 /* YRTPrefs_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33A27B5608500E04625 /* YRTPrefs_Private.h */; };
+		0A68E47A27B5608600E04625 /* YMKTaxiMoney_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33B27B5608500E04625 /* YMKTaxiMoney_Private.h */; };
+		0A68E47B27B5608600E04625 /* YMKRect_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33C27B5608500E04625 /* YMKRect_Private.h */; };
+		0A68E47C27B5608600E04625 /* YMKProjection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33D27B5608500E04625 /* YMKProjection_Private.h */; };
+		0A68E47D27B5608600E04625 /* YMKSublayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33E27B5608500E04625 /* YMKSublayer_Private.h */; };
+		0A68E47E27B5608600E04625 /* YMKTileId_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E33F27B5608500E04625 /* YMKTileId_Private.h */; };
+		0A68E47F27B5608600E04625 /* YRTEventLogging_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34027B5608500E04625 /* YRTEventLogging_Private.h */; };
+		0A68E48027B5608600E04625 /* YMKDefaultResourceUrlProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34127B5608500E04625 /* YMKDefaultResourceUrlProvider_Private.h */; };
+		0A68E48127B5608600E04625 /* YRTError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34227B5608500E04625 /* YRTError_Private.h */; };
+		0A68E48227B5608600E04625 /* YMKGeoObject_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34327B5608500E04625 /* YMKGeoObject_Private.h */; };
+		0A68E48327B5608600E04625 /* YMKZoomRange_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34427B5608500E04625 /* YMKZoomRange_Private.h */; };
+		0A68E48427B5608600E04625 /* YMKOfflineCacheRegion_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34527B5608500E04625 /* YMKOfflineCacheRegion_Private.h */; };
+		0A68E48527B5608600E04625 /* YMKUserData_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34627B5608500E04625 /* YMKUserData_Private.h */; };
+		0A68E48627B5608600E04625 /* YMKCoverageRegion_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34727B5608500E04625 /* YMKCoverageRegion_Private.h */; };
+		0A68E48727B5608600E04625 /* YMKLocalizedValue_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34827B5608500E04625 /* YMKLocalizedValue_Private.h */; };
+		0A68E48827B5608600E04625 /* YMKLogo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34927B5608500E04625 /* YMKLogo_Private.h */; };
+		0A68E48927B5608600E04625 /* YMKMapLoadedListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34A27B5608500E04625 /* YMKMapLoadedListener_Private.h */; };
+		0A68E48A27B5608600E04625 /* YMKSublayerManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34B27B5608500E04625 /* YMKSublayerManager_Private.h */; };
+		0A68E48B27B5608600E04625 /* YMKErrors_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34C27B5608500E04625 /* YMKErrors_Private.h */; };
+		0A68E48C27B5608600E04625 /* YMKClusterTapListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34D27B5608500E04625 /* YMKClusterTapListener_Private.h */; };
+		0A68E48D27B5608600E04625 /* YRTAuthError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34E27B5608500E04625 /* YRTAuthError_Private.h */; };
+		0A68E48E27B5608600E04625 /* YMKGlyphsDefaultUrlProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E34F27B5608500E04625 /* YMKGlyphsDefaultUrlProvider_Private.h */; };
+		0A68E48F27B5608600E04625 /* YMKStorageStorageErrorListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35027B5608500E04625 /* YMKStorageStorageErrorListener_Private.h */; };
+		0A68E49027B5608600E04625 /* YMKDirection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35127B5608500E04625 /* YMKDirection_Private.h */; };
+		0A68E49127B5608600E04625 /* YMKIndoorStateListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35227B5608500E04625 /* YMKIndoorStateListener_Private.h */; };
+		0A68E49227B5608600E04625 /* YMKGeoObjectTags_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35327B5608500E04625 /* YMKGeoObjectTags_Private.h */; };
+		0A68E49327B5608600E04625 /* YMKTestStruct_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35427B5608500E04625 /* YMKTestStruct_Private.h */; };
+		0A68E49427B5608600E04625 /* YMKLocationError_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35527B5608500E04625 /* YMKLocationError_Private.h */; };
+		0A68E49527B5608600E04625 /* YRTI18nManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35627B5608500E04625 /* YRTI18nManager_Private.h */; };
+		0A68E49627B5608600E04625 /* YMKMapObjectVisitor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35727B5608500E04625 /* YMKMapObjectVisitor_Private.h */; };
+		0A68E49727B5608600E04625 /* YMKGeoObjectSession_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35827B5608500E04625 /* YMKGeoObjectSession_Private.h */; };
+		0A68E49827B5608600E04625 /* YMKLogoAlignment_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35927B5608500E04625 /* YMKLogoAlignment_Private.h */; };
+		0A68E49927B5608600E04625 /* YMKUiExperimentsManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35A27B5608500E04625 /* YMKUiExperimentsManager_Private.h */; };
+		0A68E49A27B5608600E04625 /* YMKArrivalObjectMetadata_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35B27B5608500E04625 /* YMKArrivalObjectMetadata_Private.h */; };
+		0A68E49B27B5608600E04625 /* YRTReportData_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35C27B5608500E04625 /* YRTReportData_Private.h */; };
+		0A68E49C27B5608600E04625 /* YMKUserLocation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35D27B5608500E04625 /* YMKUserLocation_Private.h */; };
+		0A68E49D27B5608600E04625 /* YMKRawTile_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35E27B5608500E04625 /* YMKRawTile_Private.h */; };
+		0A68E49E27B5608600E04625 /* YMKArrowTapListener_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E35F27B5608500E04625 /* YMKArrowTapListener_Private.h */; };
+		0A68E49F27B5608600E04625 /* YMKRoadEventsError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36027B5608500E04625 /* YMKRoadEventsError.h */; };
+		0A68E4A027B5608600E04625 /* YMKLayerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36127B5608500E04625 /* YMKLayerOptions.h */; };
+		0A68E4A127B5608600E04625 /* YRTTouchEvent_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36227B5608500E04625 /* YRTTouchEvent_Private.h */; };
+		0A68E4A227B5608600E04625 /* YMKClusterTapListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36327B5608500E04625 /* YMKClusterTapListener.h */; };
+		0A68E4A327B5608600E04625 /* YMKMapObjectDragListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36427B5608500E04625 /* YMKMapObjectDragListener.h */; };
+		0A68E4A427B5608600E04625 /* YRTAnimatedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36527B5608500E04625 /* YRTAnimatedModel.h */; };
+		0A68E4A527B5608600E04625 /* YMKXyPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36627B5608500E04625 /* YMKXyPoint.h */; };
+		0A68E4A627B5608600E04625 /* YRTArchiving.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36727B5608500E04625 /* YRTArchiving.h */; };
+		0A68E4A727B5608600E04625 /* YMKTrafficLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36827B5608500E04625 /* YMKTrafficLayer.h */; };
+		0A68E4A827B5608600E04625 /* YRTCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36927B5608500E04625 /* YRTCollection.h */; };
+		0A68E4A927B5608600E04625 /* YMKLayerLoadedListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36A27B5608500E04625 /* YMKLayerLoadedListener.h */; };
+		0A68E4AA27B5608600E04625 /* YRTLocalError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36B27B5608500E04625 /* YRTLocalError.h */; };
+		0A68E4AB27B5608600E04625 /* YMKSublayerFeatureFilterType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36C27B5608500E04625 /* YMKSublayerFeatureFilterType.h */; };
+		0A68E4AC27B5608600E04625 /* YMKConflictResolutionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36D27B5608500E04625 /* YMKConflictResolutionMode.h */; };
+		0A68E4AD27B5608600E04625 /* YMKLayerIds.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36E27B5608500E04625 /* YMKLayerIds.h */; };
+		0A68E4AE27B5608600E04625 /* YMKUserLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E36F27B5608500E04625 /* YMKUserLocation.h */; };
+		0A68E4AF27B5608600E04625 /* YMKOfflineCacheRegionListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37027B5608500E04625 /* YMKOfflineCacheRegionListener.h */; };
+		0A68E4B027B5608600E04625 /* YMKPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37127B5608500E04625 /* YMKPoint.h */; };
+		0A68E4B127B5608600E04625 /* YRTModelAnimationFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37227B5608500E04625 /* YRTModelAnimationFrame.h */; };
+		0A68E4B227B5608600E04625 /* YMKVisibleRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37327B5608500E04625 /* YMKVisibleRegion.h */; };
+		0A68E4B327B5608600E04625 /* YMKResourceUrlProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37427B5608500E04625 /* YMKResourceUrlProvider.h */; };
+		0A68E4B427B5608600E04625 /* YMKCoverage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37527B5608500E04625 /* YMKCoverage.h */; };
+		0A68E4B527B5608600E04625 /* YMKStorageStorageErrorListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37627B5608500E04625 /* YMKStorageStorageErrorListener.h */; };
+		0A68E4B627B5608600E04625 /* YMKGeoObjectSelectionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37727B5608500E04625 /* YMKGeoObjectSelectionMetadata.h */; };
+		0A68E4B727B5608600E04625 /* YRTCollection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37827B5608500E04625 /* YRTCollection_Private.h */; };
+		0A68E4B827B5608600E04625 /* YMKIconStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37927B5608500E04625 /* YMKIconStyle.h */; };
+		0A68E4B927B5608600E04625 /* YMKCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37A27B5608500E04625 /* YMKCircle.h */; };
+		0A68E4BA27B5608600E04625 /* YMKMapLoadStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37B27B5608500E04625 /* YMKMapLoadStatistics.h */; };
+		0A68E4BB27B5608600E04625 /* YMKPlacemark.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37C27B5608500E04625 /* YMKPlacemark.h */; };
+		0A68E4BC27B5608600E04625 /* YMKCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37D27B5608500E04625 /* YMKCluster.h */; };
+		0A68E4BD27B5608600E04625 /* YMKScreenTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37E27B5608500E04625 /* YMKScreenTypes.h */; };
+		0A68E4BE27B5608600E04625 /* YMKInertiaMoveListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E37F27B5608500E04625 /* YMKInertiaMoveListener.h */; };
+		0A68E4BF27B5608600E04625 /* YRTReportData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38027B5608500E04625 /* YRTReportData.h */; };
+		0A68E4C027B5608600E04625 /* YRTGraphicsApiType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38127B5608500E04625 /* YRTGraphicsApiType.h */; };
+		0A68E4C127B5608600E04625 /* YRTFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38227B5608500E04625 /* YRTFrame.h */; };
+		0A68E4C227B5608600E04625 /* YMKProjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38327B5608500E04625 /* YMKProjection.h */; };
+		0A68E4C327B5608600E04625 /* YMKTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38427B5608500E04625 /* YMKTime.h */; };
+		0A68E4C427B5608600E04625 /* YMKGeoObjectSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38527B5608500E04625 /* YMKGeoObjectSession.h */; };
+		0A68E4C527B5608600E04625 /* YRTI18nManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38627B5608500E04625 /* YRTI18nManager.h */; };
+		0A68E4C627B5608600E04625 /* YRTSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38727B5608500E04625 /* YRTSubscription.h */; };
+		0A68E4C727B5608600E04625 /* YMKTileId.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38827B5608500E04625 /* YMKTileId.h */; };
+		0A68E4C827B5608600E04625 /* YMKPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38927B5608500E04625 /* YMKPolygon.h */; };
+		0A68E4C927B5608600E04625 /* YMKAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38A27B5608500E04625 /* YMKAnimation.h */; };
+		0A68E4CA27B5608600E04625 /* YMKPolylineUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38B27B5608500E04625 /* YMKPolylineUtils.h */; };
+		0A68E4CB27B5608600E04625 /* YMKPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38C27B5608500E04625 /* YMKPolyline.h */; };
+		0A68E4CC27B5608600E04625 /* YMKUserData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38D27B5608500E04625 /* YMKUserData.h */; };
+		0A68E4CD27B5608600E04625 /* YRTEventLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38E27B5608500E04625 /* YRTEventLogging.h */; };
+		0A68E4CE27B5608600E04625 /* YRTErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E38F27B5608500E04625 /* YRTErrors.h */; };
+		0A68E4CF27B5608600E04625 /* YRTUpgradeRequiredError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39027B5608500E04625 /* YRTUpgradeRequiredError.h */; };
+		0A68E4D027B5608600E04625 /* YMKTilesDefaultUrlProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39127B5608500E04625 /* YMKTilesDefaultUrlProvider.h */; };
+		0A68E4D127B5608600E04625 /* YMKLocationError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39227B5608500E04625 /* YMKLocationError.h */; };
+		0A68E4D227B5608600E04625 /* YMKVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39327B5608500E04625 /* YMKVersion.h */; };
+		0A68E4D327B5608600E04625 /* YRTNetworkRecording.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39427B5608500E04625 /* YRTNetworkRecording.h */; };
+		0A68E4D427B5608600E04625 /* YMKOfflineCacheRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39527B5608500E04625 /* YMKOfflineCacheRegion.h */; };
+		0A68E4D527B5608600E04625 /* YMKArrow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39627B5608500E04625 /* YMKArrow.h */; };
+		0A68E4D627B5608600E04625 /* YRTAuthError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39727B5608500E04625 /* YRTAuthError.h */; };
+		0A68E4D727B5608600E04625 /* YMKClusterListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39827B5608500E04625 /* YMKClusterListener.h */; };
+		0A68E4D827B5608600E04625 /* YRTAnimatedImageProviderFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39927B5608500E04625 /* YRTAnimatedImageProviderFactory.h */; };
+		0A68E4D927B5608600E04625 /* YMKGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39A27B5608500E04625 /* YMKGeo.h */; };
+		0A68E4DA27B5608600E04625 /* YRTUnderlyingErrorKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39B27B5608500E04625 /* YRTUnderlyingErrorKey.h */; };
+		0A68E4DB27B5608600E04625 /* YMKRoadEventsRoadEventsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39C27B5608500E04625 /* YMKRoadEventsRoadEventsManager.h */; };
+		0A68E4DC27B5608600E04625 /* YMKSublayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39D27B5608500E04625 /* YMKSublayer.h */; };
+		0A68E4DD27B5608600E04625 /* YRTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39E27B5608500E04625 /* YRTError.h */; };
+		0A68E4DE27B5608600E04625 /* YMKIndoorPlan.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E39F27B5608500E04625 /* YMKIndoorPlan.h */; };
+		0A68E4DF27B5608600E04625 /* YMKCoverageIsCoveredSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A027B5608500E04625 /* YMKCoverageIsCoveredSession.h */; };
+		0A68E4E027B5608600E04625 /* YRTMiidManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A127B5608500E04625 /* YRTMiidManager.h */; };
+		0A68E4E127B5608600E04625 /* YMKLocationSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A227B5608500E04625 /* YMKLocationSimulator.h */; };
+		0A68E4E227B5608600E04625 /* YMKGeoObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A327B5608500E04625 /* YMKGeoObject.h */; };
+		0A68E4E327B5608600E04625 /* YMKLogo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A427B5608500E04625 /* YMKLogo.h */; };
+		0A68E4E427B5608600E04625 /* YMKRoadEventsEventTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A527B5608500E04625 /* YMKRoadEventsEventTag.h */; };
+		0A68E4E527B5608600E04625 /* YMKObjectEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A627B5608500E04625 /* YMKObjectEvent.h */; };
+		0A68E4E627B5608600E04625 /* YMKLocationLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A727B5608500E04625 /* YMKLocationLocationManager.h */; };
+		0A68E4E727B5608600E04625 /* YRTStringDictionaryBinding_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A827B5608500E04625 /* YRTStringDictionaryBinding_Private.h */; };
+		0A68E4E827B5608600E04625 /* YMKClusterizedPlacemarkCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3A927B5608500E04625 /* YMKClusterizedPlacemarkCollection.h */; };
+		0A68E4E927B5608600E04625 /* YMKZoomFocusPointMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3AA27B5608500E04625 /* YMKZoomFocusPointMode.h */; };
+		0A68E4EA27B5608600E04625 /* YMKGeoObjectTags.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3AB27B5608500E04625 /* YMKGeoObjectTags.h */; };
+		0A68E4EB27B5608600E04625 /* YMKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3AC27B5608500E04625 /* YMKErrors.h */; };
+		0A68E4EC27B5608600E04625 /* YMKPersonalizedPoiLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3AD27B5608500E04625 /* YMKPersonalizedPoiLayer.h */; };
+		0A68E4ED27B5608600E04625 /* YRTModelProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3AE27B5608500E04625 /* YRTModelProvider.h */; };
+		0A68E4EE27B5608600E04625 /* YMKMapObjectCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3AF27B5608500E04625 /* YMKMapObjectCollection.h */; };
+		0A68E4EF27B5608600E04625 /* YRTViewProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B027B5608500E04625 /* YRTViewProvider.h */; };
+		0A68E4F027B5608600E04625 /* YMKCompositeIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B127B5608500E04625 /* YMKCompositeIcon.h */; };
+		0A68E4F127B5608600E04625 /* YMKSublayerFeatureType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B227B5608500E04625 /* YMKSublayerFeatureType.h */; };
+		0A68E4F227B5608600E04625 /* YRTConnectivityStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B327B5608500E04625 /* YRTConnectivityStatus.h */; };
+		0A68E4F327B5608600E04625 /* YMKSpannableString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B427B5608500E04625 /* YMKSpannableString.h */; };
+		0A68E4F427B5608600E04625 /* YMKMapWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B527B5608500E04625 /* YMKMapWindow.h */; };
+		0A68E4F527B5608600E04625 /* YMKGlyphsGlyphIdRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B627B5608500E04625 /* YMKGlyphsGlyphIdRange.h */; };
+		0A68E4F627B5608600E04625 /* YMKRequestPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B727B5608500E04625 /* YMKRequestPoint.h */; };
+		0A68E4F727B5608600E04625 /* YMKDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B827B5608500E04625 /* YMKDirection.h */; };
+		0A68E4F827B5608600E04625 /* YMKPersonalizedPoiTapInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3B927B5608500E04625 /* YMKPersonalizedPoiTapInfo.h */; };
+		0A68E4F927B5608600E04625 /* YMKAttribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3BA27B5608500E04625 /* YMKAttribution.h */; };
+		0A68E4FA27B5608600E04625 /* YMKMapLoadedListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3BB27B5608500E04625 /* YMKMapLoadedListener.h */; };
+		0A68E4FB27B5608600E04625 /* YRTView_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3BC27B5608500E04625 /* YRTView_Private.h */; };
+		0A68E4FC27B5608600E04625 /* YRTSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3BD27B5608500E04625 /* YRTSerialization.h */; };
+		0A68E4FD27B5608600E04625 /* YMKLocationStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3BE27B5608500E04625 /* YMKLocationStatus.h */; };
+		0A68E4FE27B5608600E04625 /* YRTAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3BF27B5608500E04625 /* YRTAccount.h */; };
+		0A68E4FF27B5608600E04625 /* YMKViewArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3C027B5608500E04625 /* YMKViewArea.h */; };
+		0A68E50027B5608600E04625 /* YMKAtomFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3C127B5608500E04625 /* YMKAtomFeed.h */; };
+		0A68E50127B5608600E04625 /* YMKTilesUrlProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3C227B5608500E04625 /* YMKTilesUrlProvider.h */; };
+		0A68E50227B5608600E04625 /* YMKTrafficListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3C327B5608500E04625 /* YMKTrafficListener.h */; };
+		0A68E50327B5608600E04625 /* YMKBoundingBoxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3C427B5608500E04625 /* YMKBoundingBoxHelper.h */; };
+		0A68E50427B5608600E04625 /* YMKDebugInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A68E3C527B5608500E04625 /* YMKDebugInfo.h */; };
+		0A68E50627B5608700E04625 /* YandexMapsMobile.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A68E3C827B5608600E04625 /* YandexMapsMobile.bundle */; };
+		8A6641112539828D000E9321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6641102539828D000E9321 /* Foundation.framework */; };
+		8A66415625398342000E9321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66411D253982C0000E9321 /* UIKit.framework */; };
+		8A66416925398367000E9321 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A664124253982D0000E9321 /* CoreGraphics.framework */; };
+		8A66417025398371000E9321 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66416F25398371000E9321 /* GLKit.framework */; };
+		8A66417125398376000E9321 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66413D25398302000E9321 /* CoreText.framework */; };
+		8A66417825398383000E9321 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66417725398383000E9321 /* OpenGLES.framework */; };
+		8A66417F2539838B000E9321 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66417E2539838B000E9321 /* CoreData.framework */; };
+		8A66418625398396000E9321 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A664134253982F1000E9321 /* CoreTelephony.framework */; };
+		8A6641872539839E000E9321 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A664126253982D9000E9321 /* CoreLocation.framework */; };
+		8A66418E253983AA000E9321 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66418D253983AA000E9321 /* SystemConfiguration.framework */; };
+		8A6641B2253983ED000E9321 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66418F253983B1000E9321 /* ImageIO.framework */; };
+		8A6641B8253983F6000E9321 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66415C2539834F000E9321 /* QuartzCore.framework */; };
+		8A6641BE25398406000E9321 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A664196253983BC000E9321 /* CoreImage.framework */; };
+		8A6641CE25398410000E9321 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66412D253982E8000E9321 /* libc++.tbd */; };
+		8A6641D425398415000E9321 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A66414F25398315000E9321 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A68E28B27B5608400E04625 /* YRTVectorBinding_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTVectorBinding_Private.h; sourceTree = "<group>"; };
+		0A68E28C27B5608400E04625 /* YMKLocationLocationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationLocationListener.h; sourceTree = "<group>"; };
+		0A68E28D27B5608400E04625 /* YMKMapCameraListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapCameraListener.h; sourceTree = "<group>"; };
+		0A68E28E27B5608400E04625 /* YMKRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRect.h; sourceTree = "<group>"; };
+		0A68E28F27B5608400E04625 /* YMKLayersGeoObjectTapListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayersGeoObjectTapListener.h; sourceTree = "<group>"; };
+		0A68E29027B5608400E04625 /* YMKCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCallback.h; sourceTree = "<group>"; };
+		0A68E29127B5608400E04625 /* YMKPlacemarkAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPlacemarkAnimation.h; sourceTree = "<group>"; };
+		0A68E29227B5608400E04625 /* YMKIconSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIconSet.h; sourceTree = "<group>"; };
+		0A68E29327B5608400E04625 /* YRTExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTExtern.h; sourceTree = "<group>"; };
+		0A68E29427B5608400E04625 /* YMKMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMap.h; sourceTree = "<group>"; };
+		0A68E29527B5608400E04625 /* YMKIndoorStateListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIndoorStateListener.h; sourceTree = "<group>"; };
+		0A68E29627B5608400E04625 /* YMKOfflineCacheRegionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheRegionState.h; sourceTree = "<group>"; };
+		0A68E29727B5608400E04625 /* YMKCoverageRegionsSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverageRegionsSession.h; sourceTree = "<group>"; };
+		0A68E29827B5608400E04625 /* YMKCameraUpdateReason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCameraUpdateReason.h; sourceTree = "<group>"; };
+		0A68E29927B5608400E04625 /* YMKUiExperimentsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUiExperimentsManager.h; sourceTree = "<group>"; };
+		0A68E29A27B5608400E04625 /* YMKStorageStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKStorageStorageManager.h; sourceTree = "<group>"; };
+		0A68E29B27B5608400E04625 /* YMKGlyphsGlyphUrlProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGlyphsGlyphUrlProvider.h; sourceTree = "<group>"; };
+		0A68E29C27B5608400E04625 /* YRTAnimatedModelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAnimatedModelProvider.h; sourceTree = "<group>"; };
+		0A68E29D27B5608400E04625 /* YMKTileFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTileFormat.h; sourceTree = "<group>"; };
+		0A68E29E27B5608400E04625 /* YMKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeometry.h; sourceTree = "<group>"; };
+		0A68E29F27B5608400E04625 /* YMKTestStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTestStruct.h; sourceTree = "<group>"; };
+		0A68E2A027B5608400E04625 /* YMKSublayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayerManager.h; sourceTree = "<group>"; };
+		0A68E2A127B5608400E04625 /* YMKProjections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKProjections.h; sourceTree = "<group>"; };
+		0A68E2A227B5608400E04625 /* YMKLocalizedValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocalizedValue.h; sourceTree = "<group>"; };
+		0A68E2A327B5608400E04625 /* YMKGeoObjectCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectCollection.h; sourceTree = "<group>"; };
+		0A68E2A427B5608400E04625 /* YMKLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayer.h; sourceTree = "<group>"; };
+		0A68E2A527B5608400E04625 /* YMKMapObjectVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectVisitor.h; sourceTree = "<group>"; };
+		0A68E2A627B5608400E04625 /* YMKGeoObjectTapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectTapEvent.h; sourceTree = "<group>"; };
+		0A68E2A727B5608400E04625 /* YMKGlyphsDefaultUrlProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGlyphsDefaultUrlProvider.h; sourceTree = "<group>"; };
+		0A68E2A827B5608400E04625 /* YMKRoadEventsRoadEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsRoadEvents.h; sourceTree = "<group>"; };
+		0A68E2A927B5608400E04625 /* YRTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTLogger.h; sourceTree = "<group>"; };
+		0A68E2AA27B5608400E04625 /* YMKCoverageRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverageRegion.h; sourceTree = "<group>"; };
+		0A68E2AB27B5608400E04625 /* YMKLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocation.h; sourceTree = "<group>"; };
+		0A68E2AC27B5608400E04625 /* YRTSubscriptionLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTSubscriptionLogger.h; sourceTree = "<group>"; };
+		0A68E2AD27B5608400E04625 /* YMKOfflineCacheDataMoveListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheDataMoveListener.h; sourceTree = "<group>"; };
+		0A68E2AE27B5608400E04625 /* YRTNativeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTNativeObject.h; sourceTree = "<group>"; };
+		0A68E2AF27B5608400E04625 /* YMKMapType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapType.h; sourceTree = "<group>"; };
+		0A68E2B027B5608400E04625 /* YMKSublayerFeatureFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayerFeatureFilter.h; sourceTree = "<group>"; };
+		0A68E2B127B5608400E04625 /* YMKRawTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRawTile.h; sourceTree = "<group>"; };
+		0A68E2B227B5608400E04625 /* YMKRotationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRotationType.h; sourceTree = "<group>"; };
+		0A68E2B327B5608400E04625 /* YRTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTImage.h; sourceTree = "<group>"; };
+		0A68E2B427B5608400E04625 /* YMKMapInputListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapInputListener.h; sourceTree = "<group>"; };
+		0A68E2B527B5608400E04625 /* YRTAnimatedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAnimatedImageProvider.h; sourceTree = "<group>"; };
+		0A68E2B627B5608400E04625 /* YMKPlacemarksStyler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPlacemarksStyler.h; sourceTree = "<group>"; };
+		0A68E2B727B5608400E04625 /* YMKTileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTileProvider.h; sourceTree = "<group>"; };
+		0A68E2B827B5608400E04625 /* YMKLogoAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLogoAlignment.h; sourceTree = "<group>"; };
+		0A68E2B927B5608400E04625 /* YRTAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAnimatedImage.h; sourceTree = "<group>"; };
+		0A68E2BA27B5608400E04625 /* YMKMapKitFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapKitFactory.h; sourceTree = "<group>"; };
+		0A68E2BB27B5608400E04625 /* YMKMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObject.h; sourceTree = "<group>"; };
+		0A68E2BC27B5608400E04625 /* YMKMapObjectCollectionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectCollectionListener.h; sourceTree = "<group>"; };
+		0A68E2BD27B5608400E04625 /* YMKMapkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapkit.h; sourceTree = "<group>"; };
+		0A68E2BE27B5608400E04625 /* YMKDefaultResourceUrlProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDefaultResourceUrlProvider.h; sourceTree = "<group>"; };
+		0A68E2BF27B5608400E04625 /* YMKLocationViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationViewFactory.h; sourceTree = "<group>"; };
+		0A68E2C027B5608400E04625 /* YMKUriObjectMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUriObjectMetadata.h; sourceTree = "<group>"; };
+		0A68E2C127B5608400E04625 /* YMKPolylineBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPolylineBuilder.h; sourceTree = "<group>"; };
+		0A68E2C227B5608400E04625 /* YMKTaxiMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTaxiMoney.h; sourceTree = "<group>"; };
+		0A68E2C327B5608400E04625 /* YRTRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTRuntime.h; sourceTree = "<group>"; };
+		0A68E2C427B5608400E04625 /* YMKOfflineCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheManager.h; sourceTree = "<group>"; };
+		0A68E2C527B5608400E04625 /* YRTPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTPrefs.h; sourceTree = "<group>"; };
+		0A68E2C627B5608400E04625 /* YRTArchivingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTArchivingUtilities.h; sourceTree = "<group>"; };
+		0A68E2C727B5608400E04625 /* YMKDummyLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDummyLocationManager.h; sourceTree = "<group>"; };
+		0A68E2C827B5608400E04625 /* YMKMapObjectTapListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectTapListener.h; sourceTree = "<group>"; };
+		0A68E2C927B5608400E04625 /* YRTModelProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTModelProviderFactory.h; sourceTree = "<group>"; };
+		0A68E2CA27B5608400E04625 /* YMKMapSizeChangedListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapSizeChangedListener.h; sourceTree = "<group>"; };
+		0A68E2CB27B5608400E04625 /* YMKArrowTapListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKArrowTapListener.h; sourceTree = "<group>"; };
+		0A68E2CC27B5608400E04625 /* YMKZoomRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKZoomRange.h; sourceTree = "<group>"; };
+		0A68E2CD27B5608400E04625 /* YMKOfflineMapRegionListUpdatesListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineMapRegionListUpdatesListener.h; sourceTree = "<group>"; };
+		0A68E2CE27B5608400E04625 /* YMKPointOfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPointOfView.h; sourceTree = "<group>"; };
+		0A68E2CF27B5608400E04625 /* YMKModelStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKModelStyle.h; sourceTree = "<group>"; };
+		0A68E2D027B5608400E04625 /* YMKCameraPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCameraPosition.h; sourceTree = "<group>"; };
+		0A68E2D127B5608400E04625 /* YMKOverzoomMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOverzoomMode.h; sourceTree = "<group>"; };
+		0A68E2D227B5608400E04625 /* YMKLocationViewSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationViewSource.h; sourceTree = "<group>"; };
+		0A68E2D327B5608400E04625 /* YMKSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSpan.h; sourceTree = "<group>"; };
+		0A68E2D427B5608400E04625 /* YMKColoredPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKColoredPolyline.h; sourceTree = "<group>"; };
+		0A68E2D527B5608400E04625 /* YMKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapView.h; sourceTree = "<group>"; };
+		0A68E2D627B5608400E04625 /* YMKStyleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKStyleType.h; sourceTree = "<group>"; };
+		0A68E2D727B5608400E04625 /* YMKArrivalObjectMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKArrivalObjectMetadata.h; sourceTree = "<group>"; };
+		0A68E2D827B5608400E04625 /* YMKSubpolylineHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSubpolylineHelper.h; sourceTree = "<group>"; };
+		0A68E2D927B5608400E04625 /* YMKTrafficRoadEventTapInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficRoadEventTapInfo.h; sourceTree = "<group>"; };
+		0A68E2DA27B5608400E04625 /* YRTAnimatedModelProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAnimatedModelProviderFactory.h; sourceTree = "<group>"; };
+		0A68E2DC27B5608400E04625 /* YMKCallback_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCallback_Private.h; sourceTree = "<group>"; };
+		0A68E2DD27B5608400E04625 /* YMKLayersGeoObjectTapListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayersGeoObjectTapListener_Private.h; sourceTree = "<group>"; };
+		0A68E2DE27B5608400E04625 /* YMKVersion_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKVersion_Private.h; sourceTree = "<group>"; };
+		0A68E2DF27B5608400E04625 /* YMKTilesDefaultUrlProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTilesDefaultUrlProvider_Private.h; sourceTree = "<group>"; };
+		0A68E2E027B5608400E04625 /* YMKPlacemark_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPlacemark_Private.h; sourceTree = "<group>"; };
+		0A68E2E127B5608400E04625 /* YMKOfflineCacheRegionListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheRegionListener_Private.h; sourceTree = "<group>"; };
+		0A68E2E227B5608400E04625 /* YMKLocationViewSource_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationViewSource_Private.h; sourceTree = "<group>"; };
+		0A68E2E327B5608400E04625 /* YMKPlacemarkAnimation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPlacemarkAnimation_Private.h; sourceTree = "<group>"; };
+		0A68E2E427B5608400E04625 /* YMKOfflineCacheDataMoveListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheDataMoveListener_Private.h; sourceTree = "<group>"; };
+		0A68E2E527B5608400E04625 /* YMKCoverageRegionsSession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverageRegionsSession_Private.h; sourceTree = "<group>"; };
+		0A68E2E627B5608400E04625 /* YMKColoredPolyline_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKColoredPolyline_Private.h; sourceTree = "<group>"; };
+		0A68E2E727B5608400E04625 /* YMKCluster_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCluster_Private.h; sourceTree = "<group>"; };
+		0A68E2E827B5608400E04625 /* YMKVisibleRegion_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKVisibleRegion_Private.h; sourceTree = "<group>"; };
+		0A68E2E927B5608400E04625 /* YMKOfflineCacheManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheManager_Private.h; sourceTree = "<group>"; };
+		0A68E2EA27B5608400E04625 /* YMKMapCameraListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapCameraListener_Private.h; sourceTree = "<group>"; };
+		0A68E2EB27B5608400E04625 /* YMKResourceUrlProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKResourceUrlProvider_Private.h; sourceTree = "<group>"; };
+		0A68E2EC27B5608400E04625 /* YMKStorageStorageManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKStorageStorageManager_Private.h; sourceTree = "<group>"; };
+		0A68E2ED27B5608400E04625 /* YRTNetworkRecording_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTNetworkRecording_Private.h; sourceTree = "<group>"; };
+		0A68E2EE27B5608400E04625 /* YMKCoverage_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverage_Private.h; sourceTree = "<group>"; };
+		0A68E2EF27B5608400E04625 /* YRTErrors_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTErrors_Private.h; sourceTree = "<group>"; };
+		0A68E2F027B5608400E04625 /* YRTRuntime_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTRuntime_Private.h; sourceTree = "<group>"; };
+		0A68E2F127B5608400E04625 /* YMKLayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayer_Private.h; sourceTree = "<group>"; };
+		0A68E2F227B5608400E04625 /* YMKMapLoadStatistics_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapLoadStatistics_Private.h; sourceTree = "<group>"; };
+		0A68E2F327B5608400E04625 /* YMKClusterListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKClusterListener_Private.h; sourceTree = "<group>"; };
+		0A68E2F427B5608400E04625 /* YMKMapkit_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapkit_Private.h; sourceTree = "<group>"; };
+		0A68E2F527B5608400E04625 /* YMKUriObjectMetadata_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUriObjectMetadata_Private.h; sourceTree = "<group>"; };
+		0A68E2F627B5608400E04625 /* YMKMapObjectCollectionListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectCollectionListener_Private.h; sourceTree = "<group>"; };
+		0A68E2F727B5608400E04625 /* YMKDummyLocationManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDummyLocationManager_Private.h; sourceTree = "<group>"; };
+		0A68E2F827B5608400E04625 /* YMKPersonalizedPoiTapInfo_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPersonalizedPoiTapInfo_Private.h; sourceTree = "<group>"; };
+		0A68E2F927B5608400E04625 /* YMKSublayerFeatureFilter_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayerFeatureFilter_Private.h; sourceTree = "<group>"; };
+		0A68E2FA27B5608400E04625 /* YMKPolygon_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPolygon_Private.h; sourceTree = "<group>"; };
+		0A68E2FB27B5608400E04625 /* YMKLocationLocationListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationLocationListener_Private.h; sourceTree = "<group>"; };
+		0A68E2FC27B5608400E04625 /* YMKAtomFeed_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAtomFeed_Private.h; sourceTree = "<group>"; };
+		0A68E2FD27B5608400E04625 /* YMKRoadEventsRoadEvents_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsRoadEvents_Private.h; sourceTree = "<group>"; };
+		0A68E2FE27B5608400E04625 /* YMKLocationLocationManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationLocationManager_Private.h; sourceTree = "<group>"; };
+		0A68E2FF27B5608400E04625 /* YMKTrafficLayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficLayer_Private.h; sourceTree = "<group>"; };
+		0A68E30027B5608400E04625 /* YMKSpannableString_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSpannableString_Private.h; sourceTree = "<group>"; };
+		0A68E30127B5608400E04625 /* YMKIndoorPlan_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIndoorPlan_Private.h; sourceTree = "<group>"; };
+		0A68E30227B5608400E04625 /* YRTSubscriptionLogger_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTSubscriptionLogger_Private.h; sourceTree = "<group>"; };
+		0A68E30327B5608400E04625 /* YRTViewProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTViewProvider_Private.h; sourceTree = "<group>"; };
+		0A68E30427B5608400E04625 /* YMKIconSet_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIconSet_Private.h; sourceTree = "<group>"; };
+		0A68E30527B5608400E04625 /* YMKMap_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMap_Private.h; sourceTree = "<group>"; };
+		0A68E30627B5608400E04625 /* YMKLayerLoadedListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayerLoadedListener_Private.h; sourceTree = "<group>"; };
+		0A68E30727B5608400E04625 /* YMKRoadEventsRoadEventsManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsRoadEventsManager_Private.h; sourceTree = "<group>"; };
+		0A68E30827B5608400E04625 /* YMKAttribution_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAttribution_Private.h; sourceTree = "<group>"; };
+		0A68E30927B5608400E04625 /* YMKGlyphsGlyphUrlProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGlyphsGlyphUrlProvider_Private.h; sourceTree = "<group>"; };
+		0A68E30A27B5608400E04625 /* YMKIconStyle_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIconStyle_Private.h; sourceTree = "<group>"; };
+		0A68E30B27B5608400E04625 /* YMKLocation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocation_Private.h; sourceTree = "<group>"; };
+		0A68E30C27B5608400E04625 /* YMKSpan_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSpan_Private.h; sourceTree = "<group>"; };
+		0A68E30D27B5608400E04625 /* YMKGeometry_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeometry_Private.h; sourceTree = "<group>"; };
+		0A68E30E27B5608400E04625 /* YMKScreenTypes_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKScreenTypes_Private.h; sourceTree = "<group>"; };
+		0A68E30F27B5608400E04625 /* YRTLocalError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTLocalError_Private.h; sourceTree = "<group>"; };
+		0A68E31027B5608400E04625 /* YMKPolyline_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPolyline_Private.h; sourceTree = "<group>"; };
+		0A68E31127B5608400E04625 /* YRTAccount_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAccount_Private.h; sourceTree = "<group>"; };
+		0A68E31227B5608500E04625 /* YMKMapObjectDragListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectDragListener_Private.h; sourceTree = "<group>"; };
+		0A68E31327B5608500E04625 /* YMKTrafficRoadEventTapInfo_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficRoadEventTapInfo_Private.h; sourceTree = "<group>"; };
+		0A68E31427B5608500E04625 /* YMKCameraPosition_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCameraPosition_Private.h; sourceTree = "<group>"; };
+		0A68E31527B5608500E04625 /* YMKPlacemarksStyler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPlacemarksStyler_Private.h; sourceTree = "<group>"; };
+		0A68E31627B5608500E04625 /* YMKLocationSimulator_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationSimulator_Private.h; sourceTree = "<group>"; };
+		0A68E31727B5608500E04625 /* YMKCoverageIsCoveredSession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverageIsCoveredSession_Private.h; sourceTree = "<group>"; };
+		0A68E31827B5608500E04625 /* YMKRoadEventsError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsError_Private.h; sourceTree = "<group>"; };
+		0A68E31927B5608500E04625 /* YMKModelStyle_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKModelStyle_Private.h; sourceTree = "<group>"; };
+		0A68E31A27B5608500E04625 /* YMKViewArea_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKViewArea_Private.h; sourceTree = "<group>"; };
+		0A68E31B27B5608500E04625 /* YMKPoint_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPoint_Private.h; sourceTree = "<group>"; };
+		0A68E31C27B5608500E04625 /* YMKCompositeIcon_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCompositeIcon_Private.h; sourceTree = "<group>"; };
+		0A68E31D27B5608500E04625 /* YMKArrow_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKArrow_Private.h; sourceTree = "<group>"; };
+		0A68E31E27B5608500E04625 /* YMKClusterizedPlacemarkCollection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKClusterizedPlacemarkCollection_Private.h; sourceTree = "<group>"; };
+		0A68E31F27B5608500E04625 /* YMKObjectEvent_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKObjectEvent_Private.h; sourceTree = "<group>"; };
+		0A68E32027B5608500E04625 /* YMKCircle_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCircle_Private.h; sourceTree = "<group>"; };
+		0A68E32127B5608500E04625 /* YMKTileProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTileProvider_Private.h; sourceTree = "<group>"; };
+		0A68E32227B5608500E04625 /* YMKAnimation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAnimation_Private.h; sourceTree = "<group>"; };
+		0A68E32327B5608500E04625 /* YMKMapObjectCollection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectCollection_Private.h; sourceTree = "<group>"; };
+		0A68E32427B5608500E04625 /* YMKRequestPoint_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRequestPoint_Private.h; sourceTree = "<group>"; };
+		0A68E32527B5608500E04625 /* YMKMapObject_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObject_Private.h; sourceTree = "<group>"; };
+		0A68E32627B5608500E04625 /* YMKOfflineMapRegionListUpdatesListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineMapRegionListUpdatesListener_Private.h; sourceTree = "<group>"; };
+		0A68E32727B5608500E04625 /* YMKGlyphsGlyphIdRange_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGlyphsGlyphIdRange_Private.h; sourceTree = "<group>"; };
+		0A68E32827B5608500E04625 /* YRTUpgradeRequiredError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTUpgradeRequiredError_Private.h; sourceTree = "<group>"; };
+		0A68E32927B5608500E04625 /* YMKPersonalizedPoiLayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPersonalizedPoiLayer_Private.h; sourceTree = "<group>"; };
+		0A68E32A27B5608500E04625 /* YMKTime_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTime_Private.h; sourceTree = "<group>"; };
+		0A68E32B27B5608500E04625 /* YMKOfflineCacheCompletionHandler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheCompletionHandler_Private.h; sourceTree = "<group>"; };
+		0A68E32C27B5608500E04625 /* YMKTrafficListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficListener_Private.h; sourceTree = "<group>"; };
+		0A68E32D27B5608500E04625 /* YMKGeoObjectCollection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectCollection_Private.h; sourceTree = "<group>"; };
+		0A68E32E27B5608500E04625 /* YMKTilesUrlProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTilesUrlProvider_Private.h; sourceTree = "<group>"; };
+		0A68E32F27B5608500E04625 /* YMKGeoObjectSelectionMetadata_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectSelectionMetadata_Private.h; sourceTree = "<group>"; };
+		0A68E33027B5608500E04625 /* YMKGeoObjectTapEvent_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectTapEvent_Private.h; sourceTree = "<group>"; };
+		0A68E33127B5608500E04625 /* YMKMapObjectTapListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectTapListener_Private.h; sourceTree = "<group>"; };
+		0A68E33227B5608500E04625 /* YMKMapInputListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapInputListener_Private.h; sourceTree = "<group>"; };
+		0A68E33327B5608500E04625 /* YMKMapWindow_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapWindow_Private.h; sourceTree = "<group>"; };
+		0A68E33427B5608500E04625 /* YMKXyPoint_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKXyPoint_Private.h; sourceTree = "<group>"; };
+		0A68E33527B5608500E04625 /* YRTMiidManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTMiidManager_Private.h; sourceTree = "<group>"; };
+		0A68E33627B5608500E04625 /* YMKMapSizeChangedListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapSizeChangedListener_Private.h; sourceTree = "<group>"; };
+		0A68E33727B5608500E04625 /* YMKInertiaMoveListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKInertiaMoveListener_Private.h; sourceTree = "<group>"; };
+		0A68E33827B5608500E04625 /* YMKLayerOptions_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayerOptions_Private.h; sourceTree = "<group>"; };
+		0A68E33927B5608500E04625 /* YMKDebugInfo_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDebugInfo_Private.h; sourceTree = "<group>"; };
+		0A68E33A27B5608500E04625 /* YRTPrefs_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTPrefs_Private.h; sourceTree = "<group>"; };
+		0A68E33B27B5608500E04625 /* YMKTaxiMoney_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTaxiMoney_Private.h; sourceTree = "<group>"; };
+		0A68E33C27B5608500E04625 /* YMKRect_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRect_Private.h; sourceTree = "<group>"; };
+		0A68E33D27B5608500E04625 /* YMKProjection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKProjection_Private.h; sourceTree = "<group>"; };
+		0A68E33E27B5608500E04625 /* YMKSublayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayer_Private.h; sourceTree = "<group>"; };
+		0A68E33F27B5608500E04625 /* YMKTileId_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTileId_Private.h; sourceTree = "<group>"; };
+		0A68E34027B5608500E04625 /* YRTEventLogging_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTEventLogging_Private.h; sourceTree = "<group>"; };
+		0A68E34127B5608500E04625 /* YMKDefaultResourceUrlProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDefaultResourceUrlProvider_Private.h; sourceTree = "<group>"; };
+		0A68E34227B5608500E04625 /* YRTError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTError_Private.h; sourceTree = "<group>"; };
+		0A68E34327B5608500E04625 /* YMKGeoObject_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObject_Private.h; sourceTree = "<group>"; };
+		0A68E34427B5608500E04625 /* YMKZoomRange_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKZoomRange_Private.h; sourceTree = "<group>"; };
+		0A68E34527B5608500E04625 /* YMKOfflineCacheRegion_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheRegion_Private.h; sourceTree = "<group>"; };
+		0A68E34627B5608500E04625 /* YMKUserData_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUserData_Private.h; sourceTree = "<group>"; };
+		0A68E34727B5608500E04625 /* YMKCoverageRegion_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverageRegion_Private.h; sourceTree = "<group>"; };
+		0A68E34827B5608500E04625 /* YMKLocalizedValue_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocalizedValue_Private.h; sourceTree = "<group>"; };
+		0A68E34927B5608500E04625 /* YMKLogo_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLogo_Private.h; sourceTree = "<group>"; };
+		0A68E34A27B5608500E04625 /* YMKMapLoadedListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapLoadedListener_Private.h; sourceTree = "<group>"; };
+		0A68E34B27B5608500E04625 /* YMKSublayerManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayerManager_Private.h; sourceTree = "<group>"; };
+		0A68E34C27B5608500E04625 /* YMKErrors_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKErrors_Private.h; sourceTree = "<group>"; };
+		0A68E34D27B5608500E04625 /* YMKClusterTapListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKClusterTapListener_Private.h; sourceTree = "<group>"; };
+		0A68E34E27B5608500E04625 /* YRTAuthError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAuthError_Private.h; sourceTree = "<group>"; };
+		0A68E34F27B5608500E04625 /* YMKGlyphsDefaultUrlProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGlyphsDefaultUrlProvider_Private.h; sourceTree = "<group>"; };
+		0A68E35027B5608500E04625 /* YMKStorageStorageErrorListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKStorageStorageErrorListener_Private.h; sourceTree = "<group>"; };
+		0A68E35127B5608500E04625 /* YMKDirection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDirection_Private.h; sourceTree = "<group>"; };
+		0A68E35227B5608500E04625 /* YMKIndoorStateListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIndoorStateListener_Private.h; sourceTree = "<group>"; };
+		0A68E35327B5608500E04625 /* YMKGeoObjectTags_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectTags_Private.h; sourceTree = "<group>"; };
+		0A68E35427B5608500E04625 /* YMKTestStruct_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTestStruct_Private.h; sourceTree = "<group>"; };
+		0A68E35527B5608500E04625 /* YMKLocationError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationError_Private.h; sourceTree = "<group>"; };
+		0A68E35627B5608500E04625 /* YRTI18nManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTI18nManager_Private.h; sourceTree = "<group>"; };
+		0A68E35727B5608500E04625 /* YMKMapObjectVisitor_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectVisitor_Private.h; sourceTree = "<group>"; };
+		0A68E35827B5608500E04625 /* YMKGeoObjectSession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectSession_Private.h; sourceTree = "<group>"; };
+		0A68E35927B5608500E04625 /* YMKLogoAlignment_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLogoAlignment_Private.h; sourceTree = "<group>"; };
+		0A68E35A27B5608500E04625 /* YMKUiExperimentsManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUiExperimentsManager_Private.h; sourceTree = "<group>"; };
+		0A68E35B27B5608500E04625 /* YMKArrivalObjectMetadata_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKArrivalObjectMetadata_Private.h; sourceTree = "<group>"; };
+		0A68E35C27B5608500E04625 /* YRTReportData_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTReportData_Private.h; sourceTree = "<group>"; };
+		0A68E35D27B5608500E04625 /* YMKUserLocation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUserLocation_Private.h; sourceTree = "<group>"; };
+		0A68E35E27B5608500E04625 /* YMKRawTile_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRawTile_Private.h; sourceTree = "<group>"; };
+		0A68E35F27B5608500E04625 /* YMKArrowTapListener_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKArrowTapListener_Private.h; sourceTree = "<group>"; };
+		0A68E36027B5608500E04625 /* YMKRoadEventsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsError.h; sourceTree = "<group>"; };
+		0A68E36127B5608500E04625 /* YMKLayerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayerOptions.h; sourceTree = "<group>"; };
+		0A68E36227B5608500E04625 /* YRTTouchEvent_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTTouchEvent_Private.h; sourceTree = "<group>"; };
+		0A68E36327B5608500E04625 /* YMKClusterTapListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKClusterTapListener.h; sourceTree = "<group>"; };
+		0A68E36427B5608500E04625 /* YMKMapObjectDragListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectDragListener.h; sourceTree = "<group>"; };
+		0A68E36527B5608500E04625 /* YRTAnimatedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAnimatedModel.h; sourceTree = "<group>"; };
+		0A68E36627B5608500E04625 /* YMKXyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKXyPoint.h; sourceTree = "<group>"; };
+		0A68E36727B5608500E04625 /* YRTArchiving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTArchiving.h; sourceTree = "<group>"; };
+		0A68E36827B5608500E04625 /* YMKTrafficLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficLayer.h; sourceTree = "<group>"; };
+		0A68E36927B5608500E04625 /* YRTCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTCollection.h; sourceTree = "<group>"; };
+		0A68E36A27B5608500E04625 /* YMKLayerLoadedListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayerLoadedListener.h; sourceTree = "<group>"; };
+		0A68E36B27B5608500E04625 /* YRTLocalError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTLocalError.h; sourceTree = "<group>"; };
+		0A68E36C27B5608500E04625 /* YMKSublayerFeatureFilterType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayerFeatureFilterType.h; sourceTree = "<group>"; };
+		0A68E36D27B5608500E04625 /* YMKConflictResolutionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKConflictResolutionMode.h; sourceTree = "<group>"; };
+		0A68E36E27B5608500E04625 /* YMKLayerIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLayerIds.h; sourceTree = "<group>"; };
+		0A68E36F27B5608500E04625 /* YMKUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUserLocation.h; sourceTree = "<group>"; };
+		0A68E37027B5608500E04625 /* YMKOfflineCacheRegionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheRegionListener.h; sourceTree = "<group>"; };
+		0A68E37127B5608500E04625 /* YMKPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPoint.h; sourceTree = "<group>"; };
+		0A68E37227B5608500E04625 /* YRTModelAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTModelAnimationFrame.h; sourceTree = "<group>"; };
+		0A68E37327B5608500E04625 /* YMKVisibleRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKVisibleRegion.h; sourceTree = "<group>"; };
+		0A68E37427B5608500E04625 /* YMKResourceUrlProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKResourceUrlProvider.h; sourceTree = "<group>"; };
+		0A68E37527B5608500E04625 /* YMKCoverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverage.h; sourceTree = "<group>"; };
+		0A68E37627B5608500E04625 /* YMKStorageStorageErrorListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKStorageStorageErrorListener.h; sourceTree = "<group>"; };
+		0A68E37727B5608500E04625 /* YMKGeoObjectSelectionMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectSelectionMetadata.h; sourceTree = "<group>"; };
+		0A68E37827B5608500E04625 /* YRTCollection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTCollection_Private.h; sourceTree = "<group>"; };
+		0A68E37927B5608500E04625 /* YMKIconStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIconStyle.h; sourceTree = "<group>"; };
+		0A68E37A27B5608500E04625 /* YMKCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCircle.h; sourceTree = "<group>"; };
+		0A68E37B27B5608500E04625 /* YMKMapLoadStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapLoadStatistics.h; sourceTree = "<group>"; };
+		0A68E37C27B5608500E04625 /* YMKPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPlacemark.h; sourceTree = "<group>"; };
+		0A68E37D27B5608500E04625 /* YMKCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCluster.h; sourceTree = "<group>"; };
+		0A68E37E27B5608500E04625 /* YMKScreenTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKScreenTypes.h; sourceTree = "<group>"; };
+		0A68E37F27B5608500E04625 /* YMKInertiaMoveListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKInertiaMoveListener.h; sourceTree = "<group>"; };
+		0A68E38027B5608500E04625 /* YRTReportData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTReportData.h; sourceTree = "<group>"; };
+		0A68E38127B5608500E04625 /* YRTGraphicsApiType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTGraphicsApiType.h; sourceTree = "<group>"; };
+		0A68E38227B5608500E04625 /* YRTFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTFrame.h; sourceTree = "<group>"; };
+		0A68E38327B5608500E04625 /* YMKProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKProjection.h; sourceTree = "<group>"; };
+		0A68E38427B5608500E04625 /* YMKTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTime.h; sourceTree = "<group>"; };
+		0A68E38527B5608500E04625 /* YMKGeoObjectSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectSession.h; sourceTree = "<group>"; };
+		0A68E38627B5608500E04625 /* YRTI18nManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTI18nManager.h; sourceTree = "<group>"; };
+		0A68E38727B5608500E04625 /* YRTSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTSubscription.h; sourceTree = "<group>"; };
+		0A68E38827B5608500E04625 /* YMKTileId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTileId.h; sourceTree = "<group>"; };
+		0A68E38927B5608500E04625 /* YMKPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPolygon.h; sourceTree = "<group>"; };
+		0A68E38A27B5608500E04625 /* YMKAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAnimation.h; sourceTree = "<group>"; };
+		0A68E38B27B5608500E04625 /* YMKPolylineUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPolylineUtils.h; sourceTree = "<group>"; };
+		0A68E38C27B5608500E04625 /* YMKPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPolyline.h; sourceTree = "<group>"; };
+		0A68E38D27B5608500E04625 /* YMKUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKUserData.h; sourceTree = "<group>"; };
+		0A68E38E27B5608500E04625 /* YRTEventLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTEventLogging.h; sourceTree = "<group>"; };
+		0A68E38F27B5608500E04625 /* YRTErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTErrors.h; sourceTree = "<group>"; };
+		0A68E39027B5608500E04625 /* YRTUpgradeRequiredError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTUpgradeRequiredError.h; sourceTree = "<group>"; };
+		0A68E39127B5608500E04625 /* YMKTilesDefaultUrlProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTilesDefaultUrlProvider.h; sourceTree = "<group>"; };
+		0A68E39227B5608500E04625 /* YMKLocationError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationError.h; sourceTree = "<group>"; };
+		0A68E39327B5608500E04625 /* YMKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKVersion.h; sourceTree = "<group>"; };
+		0A68E39427B5608500E04625 /* YRTNetworkRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTNetworkRecording.h; sourceTree = "<group>"; };
+		0A68E39527B5608500E04625 /* YMKOfflineCacheRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKOfflineCacheRegion.h; sourceTree = "<group>"; };
+		0A68E39627B5608500E04625 /* YMKArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKArrow.h; sourceTree = "<group>"; };
+		0A68E39727B5608500E04625 /* YRTAuthError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAuthError.h; sourceTree = "<group>"; };
+		0A68E39827B5608500E04625 /* YMKClusterListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKClusterListener.h; sourceTree = "<group>"; };
+		0A68E39927B5608500E04625 /* YRTAnimatedImageProviderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAnimatedImageProviderFactory.h; sourceTree = "<group>"; };
+		0A68E39A27B5608500E04625 /* YMKGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeo.h; sourceTree = "<group>"; };
+		0A68E39B27B5608500E04625 /* YRTUnderlyingErrorKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTUnderlyingErrorKey.h; sourceTree = "<group>"; };
+		0A68E39C27B5608500E04625 /* YMKRoadEventsRoadEventsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsRoadEventsManager.h; sourceTree = "<group>"; };
+		0A68E39D27B5608500E04625 /* YMKSublayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayer.h; sourceTree = "<group>"; };
+		0A68E39E27B5608500E04625 /* YRTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTError.h; sourceTree = "<group>"; };
+		0A68E39F27B5608500E04625 /* YMKIndoorPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKIndoorPlan.h; sourceTree = "<group>"; };
+		0A68E3A027B5608500E04625 /* YMKCoverageIsCoveredSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCoverageIsCoveredSession.h; sourceTree = "<group>"; };
+		0A68E3A127B5608500E04625 /* YRTMiidManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTMiidManager.h; sourceTree = "<group>"; };
+		0A68E3A227B5608500E04625 /* YMKLocationSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationSimulator.h; sourceTree = "<group>"; };
+		0A68E3A327B5608500E04625 /* YMKGeoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObject.h; sourceTree = "<group>"; };
+		0A68E3A427B5608500E04625 /* YMKLogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLogo.h; sourceTree = "<group>"; };
+		0A68E3A527B5608500E04625 /* YMKRoadEventsEventTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRoadEventsEventTag.h; sourceTree = "<group>"; };
+		0A68E3A627B5608500E04625 /* YMKObjectEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKObjectEvent.h; sourceTree = "<group>"; };
+		0A68E3A727B5608500E04625 /* YMKLocationLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationLocationManager.h; sourceTree = "<group>"; };
+		0A68E3A827B5608500E04625 /* YRTStringDictionaryBinding_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTStringDictionaryBinding_Private.h; sourceTree = "<group>"; };
+		0A68E3A927B5608500E04625 /* YMKClusterizedPlacemarkCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKClusterizedPlacemarkCollection.h; sourceTree = "<group>"; };
+		0A68E3AA27B5608500E04625 /* YMKZoomFocusPointMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKZoomFocusPointMode.h; sourceTree = "<group>"; };
+		0A68E3AB27B5608500E04625 /* YMKGeoObjectTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGeoObjectTags.h; sourceTree = "<group>"; };
+		0A68E3AC27B5608500E04625 /* YMKErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKErrors.h; sourceTree = "<group>"; };
+		0A68E3AD27B5608500E04625 /* YMKPersonalizedPoiLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPersonalizedPoiLayer.h; sourceTree = "<group>"; };
+		0A68E3AE27B5608500E04625 /* YRTModelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTModelProvider.h; sourceTree = "<group>"; };
+		0A68E3AF27B5608500E04625 /* YMKMapObjectCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapObjectCollection.h; sourceTree = "<group>"; };
+		0A68E3B027B5608500E04625 /* YRTViewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTViewProvider.h; sourceTree = "<group>"; };
+		0A68E3B127B5608500E04625 /* YMKCompositeIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKCompositeIcon.h; sourceTree = "<group>"; };
+		0A68E3B227B5608500E04625 /* YMKSublayerFeatureType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSublayerFeatureType.h; sourceTree = "<group>"; };
+		0A68E3B327B5608500E04625 /* YRTConnectivityStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTConnectivityStatus.h; sourceTree = "<group>"; };
+		0A68E3B427B5608500E04625 /* YMKSpannableString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKSpannableString.h; sourceTree = "<group>"; };
+		0A68E3B527B5608500E04625 /* YMKMapWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapWindow.h; sourceTree = "<group>"; };
+		0A68E3B627B5608500E04625 /* YMKGlyphsGlyphIdRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKGlyphsGlyphIdRange.h; sourceTree = "<group>"; };
+		0A68E3B727B5608500E04625 /* YMKRequestPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKRequestPoint.h; sourceTree = "<group>"; };
+		0A68E3B827B5608500E04625 /* YMKDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDirection.h; sourceTree = "<group>"; };
+		0A68E3B927B5608500E04625 /* YMKPersonalizedPoiTapInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKPersonalizedPoiTapInfo.h; sourceTree = "<group>"; };
+		0A68E3BA27B5608500E04625 /* YMKAttribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAttribution.h; sourceTree = "<group>"; };
+		0A68E3BB27B5608500E04625 /* YMKMapLoadedListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKMapLoadedListener.h; sourceTree = "<group>"; };
+		0A68E3BC27B5608500E04625 /* YRTView_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTView_Private.h; sourceTree = "<group>"; };
+		0A68E3BD27B5608500E04625 /* YRTSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTSerialization.h; sourceTree = "<group>"; };
+		0A68E3BE27B5608500E04625 /* YMKLocationStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKLocationStatus.h; sourceTree = "<group>"; };
+		0A68E3BF27B5608500E04625 /* YRTAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTAccount.h; sourceTree = "<group>"; };
+		0A68E3C027B5608500E04625 /* YMKViewArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKViewArea.h; sourceTree = "<group>"; };
+		0A68E3C127B5608500E04625 /* YMKAtomFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKAtomFeed.h; sourceTree = "<group>"; };
+		0A68E3C227B5608500E04625 /* YMKTilesUrlProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTilesUrlProvider.h; sourceTree = "<group>"; };
+		0A68E3C327B5608500E04625 /* YMKTrafficListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKTrafficListener.h; sourceTree = "<group>"; };
+		0A68E3C427B5608500E04625 /* YMKBoundingBoxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKBoundingBoxHelper.h; sourceTree = "<group>"; };
+		0A68E3C527B5608500E04625 /* YMKDebugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMKDebugInfo.h; sourceTree = "<group>"; };
+		0A68E3C627B5608500E04625 /* YandexMapsMobile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YandexMapsMobile; path = Carthage/Build/iOS/YandexMapsMobile.framework/Versions/A/YandexMapsMobile; sourceTree = SOURCE_ROOT; };
+		0A68E3C827B5608600E04625 /* YandexMapsMobile.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YandexMapsMobile.bundle; sourceTree = "<group>"; };
+		0A68E3CA27B5608600E04625 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		8A6641102539828D000E9321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A66411D253982C0000E9321 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A664124253982D0000E9321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A664126253982D9000E9321 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A66412D253982E8000E9321 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8A664134253982F1000E9321 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8A66413B253982FB000E9321 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8A66413D25398302000E9321 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8A66414F25398315000E9321 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8A66415C2539834F000E9321 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8A66416F25398371000E9321 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8A66417725398383000E9321 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8A66417E2539838B000E9321 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A66418D253983AA000E9321 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A66418F253983B1000E9321 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8A664196253983BC000E9321 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8A8C8EEA25387A0C00F5C247 /* YandexMapsMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YandexMapsMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8C8EEE25387A0C00F5C247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A8C8EE725387A0C00F5C247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6641D425398415000E9321 /* libz.tbd in Frameworks */,
+				8A6641CE25398410000E9321 /* libc++.tbd in Frameworks */,
+				8A6641BE25398406000E9321 /* CoreImage.framework in Frameworks */,
+				8A6641B8253983F6000E9321 /* QuartzCore.framework in Frameworks */,
+				8A6641B2253983ED000E9321 /* ImageIO.framework in Frameworks */,
+				8A66416925398367000E9321 /* CoreGraphics.framework in Frameworks */,
+				8A66418E253983AA000E9321 /* SystemConfiguration.framework in Frameworks */,
+				8A6641872539839E000E9321 /* CoreLocation.framework in Frameworks */,
+				8A66418625398396000E9321 /* CoreTelephony.framework in Frameworks */,
+				8A66417F2539838B000E9321 /* CoreData.framework in Frameworks */,
+				8A66417825398383000E9321 /* OpenGLES.framework in Frameworks */,
+				8A66417125398376000E9321 /* CoreText.framework in Frameworks */,
+				8A66417025398371000E9321 /* GLKit.framework in Frameworks */,
+				8A66415625398342000E9321 /* UIKit.framework in Frameworks */,
+				8A6641112539828D000E9321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68E28A27B5608400E04625 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0A68E28B27B5608400E04625 /* YRTVectorBinding_Private.h */,
+				0A68E28C27B5608400E04625 /* YMKLocationLocationListener.h */,
+				0A68E28D27B5608400E04625 /* YMKMapCameraListener.h */,
+				0A68E28E27B5608400E04625 /* YMKRect.h */,
+				0A68E28F27B5608400E04625 /* YMKLayersGeoObjectTapListener.h */,
+				0A68E29027B5608400E04625 /* YMKCallback.h */,
+				0A68E29127B5608400E04625 /* YMKPlacemarkAnimation.h */,
+				0A68E29227B5608400E04625 /* YMKIconSet.h */,
+				0A68E29327B5608400E04625 /* YRTExtern.h */,
+				0A68E29427B5608400E04625 /* YMKMap.h */,
+				0A68E29527B5608400E04625 /* YMKIndoorStateListener.h */,
+				0A68E29627B5608400E04625 /* YMKOfflineCacheRegionState.h */,
+				0A68E29727B5608400E04625 /* YMKCoverageRegionsSession.h */,
+				0A68E29827B5608400E04625 /* YMKCameraUpdateReason.h */,
+				0A68E29927B5608400E04625 /* YMKUiExperimentsManager.h */,
+				0A68E29A27B5608400E04625 /* YMKStorageStorageManager.h */,
+				0A68E29B27B5608400E04625 /* YMKGlyphsGlyphUrlProvider.h */,
+				0A68E29C27B5608400E04625 /* YRTAnimatedModelProvider.h */,
+				0A68E29D27B5608400E04625 /* YMKTileFormat.h */,
+				0A68E29E27B5608400E04625 /* YMKGeometry.h */,
+				0A68E29F27B5608400E04625 /* YMKTestStruct.h */,
+				0A68E2A027B5608400E04625 /* YMKSublayerManager.h */,
+				0A68E2A127B5608400E04625 /* YMKProjections.h */,
+				0A68E2A227B5608400E04625 /* YMKLocalizedValue.h */,
+				0A68E2A327B5608400E04625 /* YMKGeoObjectCollection.h */,
+				0A68E2A427B5608400E04625 /* YMKLayer.h */,
+				0A68E2A527B5608400E04625 /* YMKMapObjectVisitor.h */,
+				0A68E2A627B5608400E04625 /* YMKGeoObjectTapEvent.h */,
+				0A68E2A727B5608400E04625 /* YMKGlyphsDefaultUrlProvider.h */,
+				0A68E2A827B5608400E04625 /* YMKRoadEventsRoadEvents.h */,
+				0A68E2A927B5608400E04625 /* YRTLogger.h */,
+				0A68E2AA27B5608400E04625 /* YMKCoverageRegion.h */,
+				0A68E2AB27B5608400E04625 /* YMKLocation.h */,
+				0A68E2AC27B5608400E04625 /* YRTSubscriptionLogger.h */,
+				0A68E2AD27B5608400E04625 /* YMKOfflineCacheDataMoveListener.h */,
+				0A68E2AE27B5608400E04625 /* YRTNativeObject.h */,
+				0A68E2AF27B5608400E04625 /* YMKMapType.h */,
+				0A68E2B027B5608400E04625 /* YMKSublayerFeatureFilter.h */,
+				0A68E2B127B5608400E04625 /* YMKRawTile.h */,
+				0A68E2B227B5608400E04625 /* YMKRotationType.h */,
+				0A68E2B327B5608400E04625 /* YRTImage.h */,
+				0A68E2B427B5608400E04625 /* YMKMapInputListener.h */,
+				0A68E2B527B5608400E04625 /* YRTAnimatedImageProvider.h */,
+				0A68E2B627B5608400E04625 /* YMKPlacemarksStyler.h */,
+				0A68E2B727B5608400E04625 /* YMKTileProvider.h */,
+				0A68E2B827B5608400E04625 /* YMKLogoAlignment.h */,
+				0A68E2B927B5608400E04625 /* YRTAnimatedImage.h */,
+				0A68E2BA27B5608400E04625 /* YMKMapKitFactory.h */,
+				0A68E2BB27B5608400E04625 /* YMKMapObject.h */,
+				0A68E2BC27B5608400E04625 /* YMKMapObjectCollectionListener.h */,
+				0A68E2BD27B5608400E04625 /* YMKMapkit.h */,
+				0A68E2BE27B5608400E04625 /* YMKDefaultResourceUrlProvider.h */,
+				0A68E2BF27B5608400E04625 /* YMKLocationViewFactory.h */,
+				0A68E2C027B5608400E04625 /* YMKUriObjectMetadata.h */,
+				0A68E2C127B5608400E04625 /* YMKPolylineBuilder.h */,
+				0A68E2C227B5608400E04625 /* YMKTaxiMoney.h */,
+				0A68E2C327B5608400E04625 /* YRTRuntime.h */,
+				0A68E2C427B5608400E04625 /* YMKOfflineCacheManager.h */,
+				0A68E2C527B5608400E04625 /* YRTPrefs.h */,
+				0A68E2C627B5608400E04625 /* YRTArchivingUtilities.h */,
+				0A68E2C727B5608400E04625 /* YMKDummyLocationManager.h */,
+				0A68E2C827B5608400E04625 /* YMKMapObjectTapListener.h */,
+				0A68E2C927B5608400E04625 /* YRTModelProviderFactory.h */,
+				0A68E2CA27B5608400E04625 /* YMKMapSizeChangedListener.h */,
+				0A68E2CB27B5608400E04625 /* YMKArrowTapListener.h */,
+				0A68E2CC27B5608400E04625 /* YMKZoomRange.h */,
+				0A68E2CD27B5608400E04625 /* YMKOfflineMapRegionListUpdatesListener.h */,
+				0A68E2CE27B5608400E04625 /* YMKPointOfView.h */,
+				0A68E2CF27B5608400E04625 /* YMKModelStyle.h */,
+				0A68E2D027B5608400E04625 /* YMKCameraPosition.h */,
+				0A68E2D127B5608400E04625 /* YMKOverzoomMode.h */,
+				0A68E2D227B5608400E04625 /* YMKLocationViewSource.h */,
+				0A68E2D327B5608400E04625 /* YMKSpan.h */,
+				0A68E2D427B5608400E04625 /* YMKColoredPolyline.h */,
+				0A68E2D527B5608400E04625 /* YMKMapView.h */,
+				0A68E2D627B5608400E04625 /* YMKStyleType.h */,
+				0A68E2D727B5608400E04625 /* YMKArrivalObjectMetadata.h */,
+				0A68E2D827B5608400E04625 /* YMKSubpolylineHelper.h */,
+				0A68E2D927B5608400E04625 /* YMKTrafficRoadEventTapInfo.h */,
+				0A68E2DA27B5608400E04625 /* YRTAnimatedModelProviderFactory.h */,
+				0A68E2DB27B5608400E04625 /* Internal */,
+				0A68E36027B5608500E04625 /* YMKRoadEventsError.h */,
+				0A68E36127B5608500E04625 /* YMKLayerOptions.h */,
+				0A68E36227B5608500E04625 /* YRTTouchEvent_Private.h */,
+				0A68E36327B5608500E04625 /* YMKClusterTapListener.h */,
+				0A68E36427B5608500E04625 /* YMKMapObjectDragListener.h */,
+				0A68E36527B5608500E04625 /* YRTAnimatedModel.h */,
+				0A68E36627B5608500E04625 /* YMKXyPoint.h */,
+				0A68E36727B5608500E04625 /* YRTArchiving.h */,
+				0A68E36827B5608500E04625 /* YMKTrafficLayer.h */,
+				0A68E36927B5608500E04625 /* YRTCollection.h */,
+				0A68E36A27B5608500E04625 /* YMKLayerLoadedListener.h */,
+				0A68E36B27B5608500E04625 /* YRTLocalError.h */,
+				0A68E36C27B5608500E04625 /* YMKSublayerFeatureFilterType.h */,
+				0A68E36D27B5608500E04625 /* YMKConflictResolutionMode.h */,
+				0A68E36E27B5608500E04625 /* YMKLayerIds.h */,
+				0A68E36F27B5608500E04625 /* YMKUserLocation.h */,
+				0A68E37027B5608500E04625 /* YMKOfflineCacheRegionListener.h */,
+				0A68E37127B5608500E04625 /* YMKPoint.h */,
+				0A68E37227B5608500E04625 /* YRTModelAnimationFrame.h */,
+				0A68E37327B5608500E04625 /* YMKVisibleRegion.h */,
+				0A68E37427B5608500E04625 /* YMKResourceUrlProvider.h */,
+				0A68E37527B5608500E04625 /* YMKCoverage.h */,
+				0A68E37627B5608500E04625 /* YMKStorageStorageErrorListener.h */,
+				0A68E37727B5608500E04625 /* YMKGeoObjectSelectionMetadata.h */,
+				0A68E37827B5608500E04625 /* YRTCollection_Private.h */,
+				0A68E37927B5608500E04625 /* YMKIconStyle.h */,
+				0A68E37A27B5608500E04625 /* YMKCircle.h */,
+				0A68E37B27B5608500E04625 /* YMKMapLoadStatistics.h */,
+				0A68E37C27B5608500E04625 /* YMKPlacemark.h */,
+				0A68E37D27B5608500E04625 /* YMKCluster.h */,
+				0A68E37E27B5608500E04625 /* YMKScreenTypes.h */,
+				0A68E37F27B5608500E04625 /* YMKInertiaMoveListener.h */,
+				0A68E38027B5608500E04625 /* YRTReportData.h */,
+				0A68E38127B5608500E04625 /* YRTGraphicsApiType.h */,
+				0A68E38227B5608500E04625 /* YRTFrame.h */,
+				0A68E38327B5608500E04625 /* YMKProjection.h */,
+				0A68E38427B5608500E04625 /* YMKTime.h */,
+				0A68E38527B5608500E04625 /* YMKGeoObjectSession.h */,
+				0A68E38627B5608500E04625 /* YRTI18nManager.h */,
+				0A68E38727B5608500E04625 /* YRTSubscription.h */,
+				0A68E38827B5608500E04625 /* YMKTileId.h */,
+				0A68E38927B5608500E04625 /* YMKPolygon.h */,
+				0A68E38A27B5608500E04625 /* YMKAnimation.h */,
+				0A68E38B27B5608500E04625 /* YMKPolylineUtils.h */,
+				0A68E38C27B5608500E04625 /* YMKPolyline.h */,
+				0A68E38D27B5608500E04625 /* YMKUserData.h */,
+				0A68E38E27B5608500E04625 /* YRTEventLogging.h */,
+				0A68E38F27B5608500E04625 /* YRTErrors.h */,
+				0A68E39027B5608500E04625 /* YRTUpgradeRequiredError.h */,
+				0A68E39127B5608500E04625 /* YMKTilesDefaultUrlProvider.h */,
+				0A68E39227B5608500E04625 /* YMKLocationError.h */,
+				0A68E39327B5608500E04625 /* YMKVersion.h */,
+				0A68E39427B5608500E04625 /* YRTNetworkRecording.h */,
+				0A68E39527B5608500E04625 /* YMKOfflineCacheRegion.h */,
+				0A68E39627B5608500E04625 /* YMKArrow.h */,
+				0A68E39727B5608500E04625 /* YRTAuthError.h */,
+				0A68E39827B5608500E04625 /* YMKClusterListener.h */,
+				0A68E39927B5608500E04625 /* YRTAnimatedImageProviderFactory.h */,
+				0A68E39A27B5608500E04625 /* YMKGeo.h */,
+				0A68E39B27B5608500E04625 /* YRTUnderlyingErrorKey.h */,
+				0A68E39C27B5608500E04625 /* YMKRoadEventsRoadEventsManager.h */,
+				0A68E39D27B5608500E04625 /* YMKSublayer.h */,
+				0A68E39E27B5608500E04625 /* YRTError.h */,
+				0A68E39F27B5608500E04625 /* YMKIndoorPlan.h */,
+				0A68E3A027B5608500E04625 /* YMKCoverageIsCoveredSession.h */,
+				0A68E3A127B5608500E04625 /* YRTMiidManager.h */,
+				0A68E3A227B5608500E04625 /* YMKLocationSimulator.h */,
+				0A68E3A327B5608500E04625 /* YMKGeoObject.h */,
+				0A68E3A427B5608500E04625 /* YMKLogo.h */,
+				0A68E3A527B5608500E04625 /* YMKRoadEventsEventTag.h */,
+				0A68E3A627B5608500E04625 /* YMKObjectEvent.h */,
+				0A68E3A727B5608500E04625 /* YMKLocationLocationManager.h */,
+				0A68E3A827B5608500E04625 /* YRTStringDictionaryBinding_Private.h */,
+				0A68E3A927B5608500E04625 /* YMKClusterizedPlacemarkCollection.h */,
+				0A68E3AA27B5608500E04625 /* YMKZoomFocusPointMode.h */,
+				0A68E3AB27B5608500E04625 /* YMKGeoObjectTags.h */,
+				0A68E3AC27B5608500E04625 /* YMKErrors.h */,
+				0A68E3AD27B5608500E04625 /* YMKPersonalizedPoiLayer.h */,
+				0A68E3AE27B5608500E04625 /* YRTModelProvider.h */,
+				0A68E3AF27B5608500E04625 /* YMKMapObjectCollection.h */,
+				0A68E3B027B5608500E04625 /* YRTViewProvider.h */,
+				0A68E3B127B5608500E04625 /* YMKCompositeIcon.h */,
+				0A68E3B227B5608500E04625 /* YMKSublayerFeatureType.h */,
+				0A68E3B327B5608500E04625 /* YRTConnectivityStatus.h */,
+				0A68E3B427B5608500E04625 /* YMKSpannableString.h */,
+				0A68E3B527B5608500E04625 /* YMKMapWindow.h */,
+				0A68E3B627B5608500E04625 /* YMKGlyphsGlyphIdRange.h */,
+				0A68E3B727B5608500E04625 /* YMKRequestPoint.h */,
+				0A68E3B827B5608500E04625 /* YMKDirection.h */,
+				0A68E3B927B5608500E04625 /* YMKPersonalizedPoiTapInfo.h */,
+				0A68E3BA27B5608500E04625 /* YMKAttribution.h */,
+				0A68E3BB27B5608500E04625 /* YMKMapLoadedListener.h */,
+				0A68E3BC27B5608500E04625 /* YRTView_Private.h */,
+				0A68E3BD27B5608500E04625 /* YRTSerialization.h */,
+				0A68E3BE27B5608500E04625 /* YMKLocationStatus.h */,
+				0A68E3BF27B5608500E04625 /* YRTAccount.h */,
+				0A68E3C027B5608500E04625 /* YMKViewArea.h */,
+				0A68E3C127B5608500E04625 /* YMKAtomFeed.h */,
+				0A68E3C227B5608500E04625 /* YMKTilesUrlProvider.h */,
+				0A68E3C327B5608500E04625 /* YMKTrafficListener.h */,
+				0A68E3C427B5608500E04625 /* YMKBoundingBoxHelper.h */,
+				0A68E3C527B5608500E04625 /* YMKDebugInfo.h */,
+			);
+			name = Headers;
+			path = Carthage/Build/iOS/YandexMapsMobile.framework/Versions/A/Headers;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A68E2DB27B5608400E04625 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				0A68E2DC27B5608400E04625 /* YMKCallback_Private.h */,
+				0A68E2DD27B5608400E04625 /* YMKLayersGeoObjectTapListener_Private.h */,
+				0A68E2DE27B5608400E04625 /* YMKVersion_Private.h */,
+				0A68E2DF27B5608400E04625 /* YMKTilesDefaultUrlProvider_Private.h */,
+				0A68E2E027B5608400E04625 /* YMKPlacemark_Private.h */,
+				0A68E2E127B5608400E04625 /* YMKOfflineCacheRegionListener_Private.h */,
+				0A68E2E227B5608400E04625 /* YMKLocationViewSource_Private.h */,
+				0A68E2E327B5608400E04625 /* YMKPlacemarkAnimation_Private.h */,
+				0A68E2E427B5608400E04625 /* YMKOfflineCacheDataMoveListener_Private.h */,
+				0A68E2E527B5608400E04625 /* YMKCoverageRegionsSession_Private.h */,
+				0A68E2E627B5608400E04625 /* YMKColoredPolyline_Private.h */,
+				0A68E2E727B5608400E04625 /* YMKCluster_Private.h */,
+				0A68E2E827B5608400E04625 /* YMKVisibleRegion_Private.h */,
+				0A68E2E927B5608400E04625 /* YMKOfflineCacheManager_Private.h */,
+				0A68E2EA27B5608400E04625 /* YMKMapCameraListener_Private.h */,
+				0A68E2EB27B5608400E04625 /* YMKResourceUrlProvider_Private.h */,
+				0A68E2EC27B5608400E04625 /* YMKStorageStorageManager_Private.h */,
+				0A68E2ED27B5608400E04625 /* YRTNetworkRecording_Private.h */,
+				0A68E2EE27B5608400E04625 /* YMKCoverage_Private.h */,
+				0A68E2EF27B5608400E04625 /* YRTErrors_Private.h */,
+				0A68E2F027B5608400E04625 /* YRTRuntime_Private.h */,
+				0A68E2F127B5608400E04625 /* YMKLayer_Private.h */,
+				0A68E2F227B5608400E04625 /* YMKMapLoadStatistics_Private.h */,
+				0A68E2F327B5608400E04625 /* YMKClusterListener_Private.h */,
+				0A68E2F427B5608400E04625 /* YMKMapkit_Private.h */,
+				0A68E2F527B5608400E04625 /* YMKUriObjectMetadata_Private.h */,
+				0A68E2F627B5608400E04625 /* YMKMapObjectCollectionListener_Private.h */,
+				0A68E2F727B5608400E04625 /* YMKDummyLocationManager_Private.h */,
+				0A68E2F827B5608400E04625 /* YMKPersonalizedPoiTapInfo_Private.h */,
+				0A68E2F927B5608400E04625 /* YMKSublayerFeatureFilter_Private.h */,
+				0A68E2FA27B5608400E04625 /* YMKPolygon_Private.h */,
+				0A68E2FB27B5608400E04625 /* YMKLocationLocationListener_Private.h */,
+				0A68E2FC27B5608400E04625 /* YMKAtomFeed_Private.h */,
+				0A68E2FD27B5608400E04625 /* YMKRoadEventsRoadEvents_Private.h */,
+				0A68E2FE27B5608400E04625 /* YMKLocationLocationManager_Private.h */,
+				0A68E2FF27B5608400E04625 /* YMKTrafficLayer_Private.h */,
+				0A68E30027B5608400E04625 /* YMKSpannableString_Private.h */,
+				0A68E30127B5608400E04625 /* YMKIndoorPlan_Private.h */,
+				0A68E30227B5608400E04625 /* YRTSubscriptionLogger_Private.h */,
+				0A68E30327B5608400E04625 /* YRTViewProvider_Private.h */,
+				0A68E30427B5608400E04625 /* YMKIconSet_Private.h */,
+				0A68E30527B5608400E04625 /* YMKMap_Private.h */,
+				0A68E30627B5608400E04625 /* YMKLayerLoadedListener_Private.h */,
+				0A68E30727B5608400E04625 /* YMKRoadEventsRoadEventsManager_Private.h */,
+				0A68E30827B5608400E04625 /* YMKAttribution_Private.h */,
+				0A68E30927B5608400E04625 /* YMKGlyphsGlyphUrlProvider_Private.h */,
+				0A68E30A27B5608400E04625 /* YMKIconStyle_Private.h */,
+				0A68E30B27B5608400E04625 /* YMKLocation_Private.h */,
+				0A68E30C27B5608400E04625 /* YMKSpan_Private.h */,
+				0A68E30D27B5608400E04625 /* YMKGeometry_Private.h */,
+				0A68E30E27B5608400E04625 /* YMKScreenTypes_Private.h */,
+				0A68E30F27B5608400E04625 /* YRTLocalError_Private.h */,
+				0A68E31027B5608400E04625 /* YMKPolyline_Private.h */,
+				0A68E31127B5608400E04625 /* YRTAccount_Private.h */,
+				0A68E31227B5608500E04625 /* YMKMapObjectDragListener_Private.h */,
+				0A68E31327B5608500E04625 /* YMKTrafficRoadEventTapInfo_Private.h */,
+				0A68E31427B5608500E04625 /* YMKCameraPosition_Private.h */,
+				0A68E31527B5608500E04625 /* YMKPlacemarksStyler_Private.h */,
+				0A68E31627B5608500E04625 /* YMKLocationSimulator_Private.h */,
+				0A68E31727B5608500E04625 /* YMKCoverageIsCoveredSession_Private.h */,
+				0A68E31827B5608500E04625 /* YMKRoadEventsError_Private.h */,
+				0A68E31927B5608500E04625 /* YMKModelStyle_Private.h */,
+				0A68E31A27B5608500E04625 /* YMKViewArea_Private.h */,
+				0A68E31B27B5608500E04625 /* YMKPoint_Private.h */,
+				0A68E31C27B5608500E04625 /* YMKCompositeIcon_Private.h */,
+				0A68E31D27B5608500E04625 /* YMKArrow_Private.h */,
+				0A68E31E27B5608500E04625 /* YMKClusterizedPlacemarkCollection_Private.h */,
+				0A68E31F27B5608500E04625 /* YMKObjectEvent_Private.h */,
+				0A68E32027B5608500E04625 /* YMKCircle_Private.h */,
+				0A68E32127B5608500E04625 /* YMKTileProvider_Private.h */,
+				0A68E32227B5608500E04625 /* YMKAnimation_Private.h */,
+				0A68E32327B5608500E04625 /* YMKMapObjectCollection_Private.h */,
+				0A68E32427B5608500E04625 /* YMKRequestPoint_Private.h */,
+				0A68E32527B5608500E04625 /* YMKMapObject_Private.h */,
+				0A68E32627B5608500E04625 /* YMKOfflineMapRegionListUpdatesListener_Private.h */,
+				0A68E32727B5608500E04625 /* YMKGlyphsGlyphIdRange_Private.h */,
+				0A68E32827B5608500E04625 /* YRTUpgradeRequiredError_Private.h */,
+				0A68E32927B5608500E04625 /* YMKPersonalizedPoiLayer_Private.h */,
+				0A68E32A27B5608500E04625 /* YMKTime_Private.h */,
+				0A68E32B27B5608500E04625 /* YMKOfflineCacheCompletionHandler_Private.h */,
+				0A68E32C27B5608500E04625 /* YMKTrafficListener_Private.h */,
+				0A68E32D27B5608500E04625 /* YMKGeoObjectCollection_Private.h */,
+				0A68E32E27B5608500E04625 /* YMKTilesUrlProvider_Private.h */,
+				0A68E32F27B5608500E04625 /* YMKGeoObjectSelectionMetadata_Private.h */,
+				0A68E33027B5608500E04625 /* YMKGeoObjectTapEvent_Private.h */,
+				0A68E33127B5608500E04625 /* YMKMapObjectTapListener_Private.h */,
+				0A68E33227B5608500E04625 /* YMKMapInputListener_Private.h */,
+				0A68E33327B5608500E04625 /* YMKMapWindow_Private.h */,
+				0A68E33427B5608500E04625 /* YMKXyPoint_Private.h */,
+				0A68E33527B5608500E04625 /* YRTMiidManager_Private.h */,
+				0A68E33627B5608500E04625 /* YMKMapSizeChangedListener_Private.h */,
+				0A68E33727B5608500E04625 /* YMKInertiaMoveListener_Private.h */,
+				0A68E33827B5608500E04625 /* YMKLayerOptions_Private.h */,
+				0A68E33927B5608500E04625 /* YMKDebugInfo_Private.h */,
+				0A68E33A27B5608500E04625 /* YRTPrefs_Private.h */,
+				0A68E33B27B5608500E04625 /* YMKTaxiMoney_Private.h */,
+				0A68E33C27B5608500E04625 /* YMKRect_Private.h */,
+				0A68E33D27B5608500E04625 /* YMKProjection_Private.h */,
+				0A68E33E27B5608500E04625 /* YMKSublayer_Private.h */,
+				0A68E33F27B5608500E04625 /* YMKTileId_Private.h */,
+				0A68E34027B5608500E04625 /* YRTEventLogging_Private.h */,
+				0A68E34127B5608500E04625 /* YMKDefaultResourceUrlProvider_Private.h */,
+				0A68E34227B5608500E04625 /* YRTError_Private.h */,
+				0A68E34327B5608500E04625 /* YMKGeoObject_Private.h */,
+				0A68E34427B5608500E04625 /* YMKZoomRange_Private.h */,
+				0A68E34527B5608500E04625 /* YMKOfflineCacheRegion_Private.h */,
+				0A68E34627B5608500E04625 /* YMKUserData_Private.h */,
+				0A68E34727B5608500E04625 /* YMKCoverageRegion_Private.h */,
+				0A68E34827B5608500E04625 /* YMKLocalizedValue_Private.h */,
+				0A68E34927B5608500E04625 /* YMKLogo_Private.h */,
+				0A68E34A27B5608500E04625 /* YMKMapLoadedListener_Private.h */,
+				0A68E34B27B5608500E04625 /* YMKSublayerManager_Private.h */,
+				0A68E34C27B5608500E04625 /* YMKErrors_Private.h */,
+				0A68E34D27B5608500E04625 /* YMKClusterTapListener_Private.h */,
+				0A68E34E27B5608500E04625 /* YRTAuthError_Private.h */,
+				0A68E34F27B5608500E04625 /* YMKGlyphsDefaultUrlProvider_Private.h */,
+				0A68E35027B5608500E04625 /* YMKStorageStorageErrorListener_Private.h */,
+				0A68E35127B5608500E04625 /* YMKDirection_Private.h */,
+				0A68E35227B5608500E04625 /* YMKIndoorStateListener_Private.h */,
+				0A68E35327B5608500E04625 /* YMKGeoObjectTags_Private.h */,
+				0A68E35427B5608500E04625 /* YMKTestStruct_Private.h */,
+				0A68E35527B5608500E04625 /* YMKLocationError_Private.h */,
+				0A68E35627B5608500E04625 /* YRTI18nManager_Private.h */,
+				0A68E35727B5608500E04625 /* YMKMapObjectVisitor_Private.h */,
+				0A68E35827B5608500E04625 /* YMKGeoObjectSession_Private.h */,
+				0A68E35927B5608500E04625 /* YMKLogoAlignment_Private.h */,
+				0A68E35A27B5608500E04625 /* YMKUiExperimentsManager_Private.h */,
+				0A68E35B27B5608500E04625 /* YMKArrivalObjectMetadata_Private.h */,
+				0A68E35C27B5608500E04625 /* YRTReportData_Private.h */,
+				0A68E35D27B5608500E04625 /* YMKUserLocation_Private.h */,
+				0A68E35E27B5608500E04625 /* YMKRawTile_Private.h */,
+				0A68E35F27B5608500E04625 /* YMKArrowTapListener_Private.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		0A68E3C727B5608600E04625 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A68E3C827B5608600E04625 /* YandexMapsMobile.bundle */,
+			);
+			name = Resources;
+			path = Carthage/Build/iOS/YandexMapsMobile.framework/Versions/A/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A68E3C927B5608600E04625 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A68E3CA27B5608600E04625 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Carthage/Build/iOS/YandexMapsMobile.framework/Modules;
+			sourceTree = SOURCE_ROOT;
+		};
+		8A66407425397E8C000E9321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A664196253983BC000E9321 /* CoreImage.framework */,
+				8A66418F253983B1000E9321 /* ImageIO.framework */,
+				8A66418D253983AA000E9321 /* SystemConfiguration.framework */,
+				8A66417E2539838B000E9321 /* CoreData.framework */,
+				8A66417725398383000E9321 /* OpenGLES.framework */,
+				8A66416F25398371000E9321 /* GLKit.framework */,
+				8A66415C2539834F000E9321 /* QuartzCore.framework */,
+				8A66414F25398315000E9321 /* libz.tbd */,
+				8A66413D25398302000E9321 /* CoreText.framework */,
+				8A66413B253982FB000E9321 /* Security.framework */,
+				8A664134253982F1000E9321 /* CoreTelephony.framework */,
+				8A66412D253982E8000E9321 /* libc++.tbd */,
+				8A664126253982D9000E9321 /* CoreLocation.framework */,
+				8A664124253982D0000E9321 /* CoreGraphics.framework */,
+				8A66411D253982C0000E9321 /* UIKit.framework */,
+				8A6641102539828D000E9321 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A8C8EE025387A0C00F5C247 = {
+			isa = PBXGroup;
+			children = (
+				8A8C8EEC25387A0C00F5C247 /* YandexMapsMobile */,
+				8A8C8EEB25387A0C00F5C247 /* Products */,
+				8A66407425397E8C000E9321 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A8C8EEB25387A0C00F5C247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A8C8EEA25387A0C00F5C247 /* YandexMapsMobile.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A8C8EEC25387A0C00F5C247 /* YandexMapsMobile */ = {
+			isa = PBXGroup;
+			children = (
+				0A68E28A27B5608400E04625 /* Headers */,
+				0A68E3C927B5608600E04625 /* Modules */,
+				0A68E3C727B5608600E04625 /* Resources */,
+				0A68E3C627B5608500E04625 /* YandexMapsMobile */,
+				8A8C8EEE25387A0C00F5C247 /* Info.plist */,
+			);
+			path = YandexMapsMobile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A8C8EE525387A0C00F5C247 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68E43E27B5608600E04625 /* YMKTrafficLayer_Private.h in Headers */,
+				0A68E46E27B5608600E04625 /* YMKGeoObjectSelectionMetadata_Private.h in Headers */,
+				0A68E49427B5608600E04625 /* YMKLocationError_Private.h in Headers */,
+				0A68E45327B5608600E04625 /* YMKCameraPosition_Private.h in Headers */,
+				0A68E4EB27B5608600E04625 /* YMKErrors.h in Headers */,
+				0A68E3E327B5608600E04625 /* YMKGeoObjectCollection.h in Headers */,
+				0A68E41227B5608600E04625 /* YMKLocationViewSource.h in Headers */,
+				0A68E50227B5608600E04625 /* YMKTrafficListener.h in Headers */,
+				0A68E4BE27B5608600E04625 /* YMKInertiaMoveListener.h in Headers */,
+				0A68E44827B5608600E04625 /* YMKGlyphsGlyphUrlProvider_Private.h in Headers */,
+				0A68E3F427B5608600E04625 /* YMKMapInputListener.h in Headers */,
+				0A68E3D527B5608600E04625 /* YMKIndoorStateListener.h in Headers */,
+				0A68E3CB27B5608600E04625 /* YRTVectorBinding_Private.h in Headers */,
+				0A68E4F627B5608600E04625 /* YMKRequestPoint.h in Headers */,
+				0A68E40027B5608600E04625 /* YMKUriObjectMetadata.h in Headers */,
+				0A68E45027B5608600E04625 /* YRTAccount_Private.h in Headers */,
+				0A68E47427B5608600E04625 /* YRTMiidManager_Private.h in Headers */,
+				0A68E45F27B5608600E04625 /* YMKCircle_Private.h in Headers */,
+				0A68E45827B5608600E04625 /* YMKModelStyle_Private.h in Headers */,
+				0A68E4BF27B5608600E04625 /* YRTReportData.h in Headers */,
+				0A68E44C27B5608600E04625 /* YMKGeometry_Private.h in Headers */,
+				0A68E40627B5608600E04625 /* YRTArchivingUtilities.h in Headers */,
+				0A68E40527B5608600E04625 /* YRTPrefs.h in Headers */,
+				0A68E4DB27B5608600E04625 /* YMKRoadEventsRoadEventsManager.h in Headers */,
+				0A68E48627B5608600E04625 /* YMKCoverageRegion_Private.h in Headers */,
+				0A68E4D227B5608600E04625 /* YMKVersion.h in Headers */,
+				0A68E41027B5608600E04625 /* YMKCameraPosition.h in Headers */,
+				0A68E3CF27B5608600E04625 /* YMKLayersGeoObjectTapListener.h in Headers */,
+				0A68E46127B5608600E04625 /* YMKAnimation_Private.h in Headers */,
+				0A68E4A827B5608600E04625 /* YRTCollection.h in Headers */,
+				0A68E44027B5608600E04625 /* YMKIndoorPlan_Private.h in Headers */,
+				0A68E4D327B5608600E04625 /* YRTNetworkRecording.h in Headers */,
+				0A68E4A627B5608600E04625 /* YRTArchiving.h in Headers */,
+				0A68E4A027B5608600E04625 /* YMKLayerOptions.h in Headers */,
+				0A68E48927B5608600E04625 /* YMKMapLoadedListener_Private.h in Headers */,
+				0A68E3F927B5608600E04625 /* YRTAnimatedImage.h in Headers */,
+				0A68E4E327B5608600E04625 /* YMKLogo.h in Headers */,
+				0A68E3EC27B5608600E04625 /* YRTSubscriptionLogger.h in Headers */,
+				0A68E40E27B5608600E04625 /* YMKPointOfView.h in Headers */,
+				0A68E4F227B5608600E04625 /* YRTConnectivityStatus.h in Headers */,
+				0A68E43227B5608600E04625 /* YMKClusterListener_Private.h in Headers */,
+				0A68E45527B5608600E04625 /* YMKLocationSimulator_Private.h in Headers */,
+				0A68E44627B5608600E04625 /* YMKRoadEventsRoadEventsManager_Private.h in Headers */,
+				0A68E4E127B5608600E04625 /* YMKLocationSimulator.h in Headers */,
+				0A68E46427B5608600E04625 /* YMKMapObject_Private.h in Headers */,
+				0A68E4AC27B5608600E04625 /* YMKConflictResolutionMode.h in Headers */,
+				0A68E41827B5608600E04625 /* YMKSubpolylineHelper.h in Headers */,
+				0A68E42227B5608600E04625 /* YMKPlacemarkAnimation_Private.h in Headers */,
+				0A68E42E27B5608600E04625 /* YRTErrors_Private.h in Headers */,
+				0A68E42427B5608600E04625 /* YMKCoverageRegionsSession_Private.h in Headers */,
+				0A68E44B27B5608600E04625 /* YMKSpan_Private.h in Headers */,
+				0A68E3E227B5608600E04625 /* YMKLocalizedValue.h in Headers */,
+				0A68E3DF27B5608600E04625 /* YMKTestStruct.h in Headers */,
+				0A68E3EA27B5608600E04625 /* YMKCoverageRegion.h in Headers */,
+				0A68E44A27B5608600E04625 /* YMKLocation_Private.h in Headers */,
+				0A68E4B027B5608600E04625 /* YMKPoint.h in Headers */,
+				0A68E43627B5608600E04625 /* YMKDummyLocationManager_Private.h in Headers */,
+				0A68E4CF27B5608600E04625 /* YRTUpgradeRequiredError.h in Headers */,
+				0A68E3D627B5608600E04625 /* YMKOfflineCacheRegionState.h in Headers */,
+				0A68E4F327B5608600E04625 /* YMKSpannableString.h in Headers */,
+				0A68E41927B5608600E04625 /* YMKTrafficRoadEventTapInfo.h in Headers */,
+				0A68E42627B5608600E04625 /* YMKCluster_Private.h in Headers */,
+				0A68E45C27B5608600E04625 /* YMKArrow_Private.h in Headers */,
+				0A68E4DE27B5608600E04625 /* YMKIndoorPlan.h in Headers */,
+				0A68E49C27B5608600E04625 /* YMKUserLocation_Private.h in Headers */,
+				0A68E47127B5608600E04625 /* YMKMapInputListener_Private.h in Headers */,
+				0A68E42C27B5608600E04625 /* YRTNetworkRecording_Private.h in Headers */,
+				0A68E3E927B5608600E04625 /* YRTLogger.h in Headers */,
+				0A68E3CD27B5608600E04625 /* YMKMapCameraListener.h in Headers */,
+				0A68E4B627B5608600E04625 /* YMKGeoObjectSelectionMetadata.h in Headers */,
+				0A68E4EA27B5608600E04625 /* YMKGeoObjectTags.h in Headers */,
+				0A68E40F27B5608600E04625 /* YMKModelStyle.h in Headers */,
+				0A68E48C27B5608600E04625 /* YMKClusterTapListener_Private.h in Headers */,
+				0A68E4B427B5608600E04625 /* YMKCoverage.h in Headers */,
+				0A68E4BD27B5608600E04625 /* YMKScreenTypes.h in Headers */,
+				0A68E41E27B5608600E04625 /* YMKTilesDefaultUrlProvider_Private.h in Headers */,
+				0A68E47C27B5608600E04625 /* YMKProjection_Private.h in Headers */,
+				0A68E3F727B5608600E04625 /* YMKTileProvider.h in Headers */,
+				0A68E50027B5608600E04625 /* YMKAtomFeed.h in Headers */,
+				0A68E3E127B5608600E04625 /* YMKProjections.h in Headers */,
+				0A68E4FC27B5608600E04625 /* YRTSerialization.h in Headers */,
+				0A68E43527B5608600E04625 /* YMKMapObjectCollectionListener_Private.h in Headers */,
+				0A68E49727B5608600E04625 /* YMKGeoObjectSession_Private.h in Headers */,
+				0A68E40D27B5608600E04625 /* YMKOfflineMapRegionListUpdatesListener.h in Headers */,
+				0A68E43427B5608600E04625 /* YMKUriObjectMetadata_Private.h in Headers */,
+				0A68E49227B5608600E04625 /* YMKGeoObjectTags_Private.h in Headers */,
+				0A68E41D27B5608600E04625 /* YMKVersion_Private.h in Headers */,
+				0A68E4CA27B5608600E04625 /* YMKPolylineUtils.h in Headers */,
+				0A68E40827B5608600E04625 /* YMKMapObjectTapListener.h in Headers */,
+				0A68E4BA27B5608600E04625 /* YMKMapLoadStatistics.h in Headers */,
+				0A68E48827B5608600E04625 /* YMKLogo_Private.h in Headers */,
+				0A68E40B27B5608600E04625 /* YMKArrowTapListener.h in Headers */,
+				0A68E44127B5608600E04625 /* YRTSubscriptionLogger_Private.h in Headers */,
+				0A68E4FB27B5608600E04625 /* YRTView_Private.h in Headers */,
+				0A68E4D527B5608600E04625 /* YMKArrow.h in Headers */,
+				0A68E3E627B5608600E04625 /* YMKGeoObjectTapEvent.h in Headers */,
+				0A68E43827B5608600E04625 /* YMKSublayerFeatureFilter_Private.h in Headers */,
+				0A68E4DF27B5608600E04625 /* YMKCoverageIsCoveredSession.h in Headers */,
+				0A68E3DD27B5608600E04625 /* YMKTileFormat.h in Headers */,
+				0A68E49D27B5608600E04625 /* YMKRawTile_Private.h in Headers */,
+				0A68E43B27B5608600E04625 /* YMKAtomFeed_Private.h in Headers */,
+				0A68E49827B5608600E04625 /* YMKLogoAlignment_Private.h in Headers */,
+				0A68E45B27B5608600E04625 /* YMKCompositeIcon_Private.h in Headers */,
+				0A68E48427B5608600E04625 /* YMKOfflineCacheRegion_Private.h in Headers */,
+				0A68E4E627B5608600E04625 /* YMKLocationLocationManager.h in Headers */,
+				0A68E47B27B5608600E04625 /* YMKRect_Private.h in Headers */,
+				0A68E4F527B5608600E04625 /* YMKGlyphsGlyphIdRange.h in Headers */,
+				0A68E3F327B5608600E04625 /* YRTImage.h in Headers */,
+				0A68E46527B5608600E04625 /* YMKOfflineMapRegionListUpdatesListener_Private.h in Headers */,
+				0A68E3FD27B5608600E04625 /* YMKMapkit.h in Headers */,
+				0A68E50127B5608600E04625 /* YMKTilesUrlProvider.h in Headers */,
+				0A68E3CE27B5608600E04625 /* YMKRect.h in Headers */,
+				0A68E46627B5608600E04625 /* YMKGlyphsGlyphIdRange_Private.h in Headers */,
+				0A68E4B827B5608600E04625 /* YMKIconStyle.h in Headers */,
+				0A68E48E27B5608600E04625 /* YMKGlyphsDefaultUrlProvider_Private.h in Headers */,
+				0A68E45D27B5608600E04625 /* YMKClusterizedPlacemarkCollection_Private.h in Headers */,
+				0A68E3F527B5608600E04625 /* YRTAnimatedImageProvider.h in Headers */,
+				0A68E4DA27B5608600E04625 /* YRTUnderlyingErrorKey.h in Headers */,
+				0A68E41A27B5608600E04625 /* YRTAnimatedModelProviderFactory.h in Headers */,
+				0A68E40127B5608600E04625 /* YMKPolylineBuilder.h in Headers */,
+				0A68E41727B5608600E04625 /* YMKArrivalObjectMetadata.h in Headers */,
+				0A68E41627B5608600E04625 /* YMKStyleType.h in Headers */,
+				0A68E3E027B5608600E04625 /* YMKSublayerManager.h in Headers */,
+				0A68E41327B5608600E04625 /* YMKSpan.h in Headers */,
+				0A68E45A27B5608600E04625 /* YMKPoint_Private.h in Headers */,
+				0A68E42A27B5608600E04625 /* YMKResourceUrlProvider_Private.h in Headers */,
+				0A68E4B127B5608600E04625 /* YRTModelAnimationFrame.h in Headers */,
+				0A68E43127B5608600E04625 /* YMKMapLoadStatistics_Private.h in Headers */,
+				0A68E46B27B5608600E04625 /* YMKTrafficListener_Private.h in Headers */,
+				0A68E49327B5608600E04625 /* YMKTestStruct_Private.h in Headers */,
+				0A68E45427B5608600E04625 /* YMKPlacemarksStyler_Private.h in Headers */,
+				0A68E4ED27B5608600E04625 /* YRTModelProvider.h in Headers */,
+				0A68E47927B5608600E04625 /* YRTPrefs_Private.h in Headers */,
+				0A68E3EB27B5608600E04625 /* YMKLocation.h in Headers */,
+				0A68E3D827B5608600E04625 /* YMKCameraUpdateReason.h in Headers */,
+				0A68E3F027B5608600E04625 /* YMKSublayerFeatureFilter.h in Headers */,
+				0A68E4AD27B5608600E04625 /* YMKLayerIds.h in Headers */,
+				0A68E48A27B5608600E04625 /* YMKSublayerManager_Private.h in Headers */,
+				0A68E4C827B5608600E04625 /* YMKPolygon.h in Headers */,
+				0A68E4AB27B5608600E04625 /* YMKSublayerFeatureFilterType.h in Headers */,
+				0A68E4F827B5608600E04625 /* YMKPersonalizedPoiTapInfo.h in Headers */,
+				0A68E50327B5608600E04625 /* YMKBoundingBoxHelper.h in Headers */,
+				0A68E4C427B5608600E04625 /* YMKGeoObjectSession.h in Headers */,
+				0A68E4BC27B5608600E04625 /* YMKCluster.h in Headers */,
+				0A68E3ED27B5608600E04625 /* YMKOfflineCacheDataMoveListener.h in Headers */,
+				0A68E4B927B5608600E04625 /* YMKCircle.h in Headers */,
+				0A68E49627B5608600E04625 /* YMKMapObjectVisitor_Private.h in Headers */,
+				0A68E48D27B5608600E04625 /* YRTAuthError_Private.h in Headers */,
+				0A68E40727B5608600E04625 /* YMKDummyLocationManager.h in Headers */,
+				0A68E4DC27B5608600E04625 /* YMKSublayer.h in Headers */,
+				0A68E41427B5608600E04625 /* YMKColoredPolyline.h in Headers */,
+				0A68E49F27B5608600E04625 /* YMKRoadEventsError.h in Headers */,
+				0A68E4E727B5608600E04625 /* YRTStringDictionaryBinding_Private.h in Headers */,
+				0A68E40227B5608600E04625 /* YMKTaxiMoney.h in Headers */,
+				0A68E3F627B5608600E04625 /* YMKPlacemarksStyler.h in Headers */,
+				0A68E47527B5608600E04625 /* YMKMapSizeChangedListener_Private.h in Headers */,
+				0A68E3D427B5608600E04625 /* YMKMap.h in Headers */,
+				0A68E4D627B5608600E04625 /* YRTAuthError.h in Headers */,
+				0A68E3DB27B5608600E04625 /* YMKGlyphsGlyphUrlProvider.h in Headers */,
+				0A68E48127B5608600E04625 /* YRTError_Private.h in Headers */,
+				0A68E4EE27B5608600E04625 /* YMKMapObjectCollection.h in Headers */,
+				0A68E42027B5608600E04625 /* YMKOfflineCacheRegionListener_Private.h in Headers */,
+				0A68E4E427B5608600E04625 /* YMKRoadEventsEventTag.h in Headers */,
+				0A68E3E827B5608600E04625 /* YMKRoadEventsRoadEvents.h in Headers */,
+				0A68E40A27B5608600E04625 /* YMKMapSizeChangedListener.h in Headers */,
+				0A68E43027B5608600E04625 /* YMKLayer_Private.h in Headers */,
+				0A68E3FF27B5608600E04625 /* YMKLocationViewFactory.h in Headers */,
+				0A68E48027B5608600E04625 /* YMKDefaultResourceUrlProvider_Private.h in Headers */,
+				0A68E45627B5608600E04625 /* YMKCoverageIsCoveredSession_Private.h in Headers */,
+				0A68E3FC27B5608600E04625 /* YMKMapObjectCollectionListener.h in Headers */,
+				0A68E44F27B5608600E04625 /* YMKPolyline_Private.h in Headers */,
+				0A68E4FD27B5608600E04625 /* YMKLocationStatus.h in Headers */,
+				0A68E4DD27B5608600E04625 /* YRTError.h in Headers */,
+				0A68E4D927B5608600E04625 /* YMKGeo.h in Headers */,
+				0A68E43927B5608600E04625 /* YMKPolygon_Private.h in Headers */,
+				0A68E4E827B5608600E04625 /* YMKClusterizedPlacemarkCollection.h in Headers */,
+				0A68E4F727B5608600E04625 /* YMKDirection.h in Headers */,
+				0A68E4D727B5608600E04625 /* YMKClusterListener.h in Headers */,
+				0A68E4FF27B5608600E04625 /* YMKViewArea.h in Headers */,
+				0A68E46227B5608600E04625 /* YMKMapObjectCollection_Private.h in Headers */,
+				0A68E4FA27B5608600E04625 /* YMKMapLoadedListener.h in Headers */,
+				0A68E44227B5608600E04625 /* YRTViewProvider_Private.h in Headers */,
+				0A68E46727B5608600E04625 /* YRTUpgradeRequiredError_Private.h in Headers */,
+				0A68E45127B5608600E04625 /* YMKMapObjectDragListener_Private.h in Headers */,
+				0A68E49E27B5608600E04625 /* YMKArrowTapListener_Private.h in Headers */,
+				0A68E4D827B5608600E04625 /* YRTAnimatedImageProviderFactory.h in Headers */,
+				0A68E44727B5608600E04625 /* YMKAttribution_Private.h in Headers */,
+				0A68E47A27B5608600E04625 /* YMKTaxiMoney_Private.h in Headers */,
+				0A68E45727B5608600E04625 /* YMKRoadEventsError_Private.h in Headers */,
+				0A68E49527B5608600E04625 /* YRTI18nManager_Private.h in Headers */,
+				0A68E50427B5608600E04625 /* YMKDebugInfo.h in Headers */,
+				0A68E4A427B5608600E04625 /* YRTAnimatedModel.h in Headers */,
+				0A68E3F127B5608600E04625 /* YMKRawTile.h in Headers */,
+				0A68E42127B5608600E04625 /* YMKLocationViewSource_Private.h in Headers */,
+				0A68E3FE27B5608600E04625 /* YMKDefaultResourceUrlProvider.h in Headers */,
+				0A68E4AF27B5608600E04625 /* YMKOfflineCacheRegionListener.h in Headers */,
+				0A68E4EF27B5608600E04625 /* YRTViewProvider.h in Headers */,
+				0A68E3D027B5608600E04625 /* YMKCallback.h in Headers */,
+				0A68E49A27B5608600E04625 /* YMKArrivalObjectMetadata_Private.h in Headers */,
+				0A68E3E727B5608600E04625 /* YMKGlyphsDefaultUrlProvider.h in Headers */,
+				0A68E3D727B5608600E04625 /* YMKCoverageRegionsSession.h in Headers */,
+				0A68E4C027B5608600E04625 /* YRTGraphicsApiType.h in Headers */,
+				0A68E47027B5608600E04625 /* YMKMapObjectTapListener_Private.h in Headers */,
+				0A68E3FB27B5608600E04625 /* YMKMapObject.h in Headers */,
+				0A68E4A227B5608600E04625 /* YMKClusterTapListener.h in Headers */,
+				0A68E47327B5608600E04625 /* YMKXyPoint_Private.h in Headers */,
+				0A68E47D27B5608600E04625 /* YMKSublayer_Private.h in Headers */,
+				0A68E40427B5608600E04625 /* YMKOfflineCacheManager.h in Headers */,
+				0A68E44E27B5608600E04625 /* YRTLocalError_Private.h in Headers */,
+				0A68E3DA27B5608600E04625 /* YMKStorageStorageManager.h in Headers */,
+				0A68E4EC27B5608600E04625 /* YMKPersonalizedPoiLayer.h in Headers */,
+				0A68E47627B5608600E04625 /* YMKInertiaMoveListener_Private.h in Headers */,
+				0A68E4C527B5608600E04625 /* YRTI18nManager.h in Headers */,
+				0A68E4CC27B5608600E04625 /* YMKUserData.h in Headers */,
+				0A68E4A127B5608600E04625 /* YRTTouchEvent_Private.h in Headers */,
+				0A68E47E27B5608600E04625 /* YMKTileId_Private.h in Headers */,
+				0A68E44327B5608600E04625 /* YMKIconSet_Private.h in Headers */,
+				0A68E48227B5608600E04625 /* YMKGeoObject_Private.h in Headers */,
+				0A68E48527B5608600E04625 /* YMKUserData_Private.h in Headers */,
+				0A68E4B327B5608600E04625 /* YMKResourceUrlProvider.h in Headers */,
+				0A68E4AA27B5608600E04625 /* YRTLocalError.h in Headers */,
+				0A68E3EE27B5608600E04625 /* YRTNativeObject.h in Headers */,
+				0A68E48B27B5608600E04625 /* YMKErrors_Private.h in Headers */,
+				0A68E4FE27B5608600E04625 /* YRTAccount.h in Headers */,
+				0A68E4A327B5608600E04625 /* YMKMapObjectDragListener.h in Headers */,
+				0A68E4E527B5608600E04625 /* YMKObjectEvent.h in Headers */,
+				0A68E4C127B5608600E04625 /* YRTFrame.h in Headers */,
+				0A68E3E427B5608600E04625 /* YMKLayer.h in Headers */,
+				0A68E4E227B5608600E04625 /* YMKGeoObject.h in Headers */,
+				0A68E3D127B5608600E04625 /* YMKPlacemarkAnimation.h in Headers */,
+				0A68E43C27B5608600E04625 /* YMKRoadEventsRoadEvents_Private.h in Headers */,
+				0A68E42D27B5608600E04625 /* YMKCoverage_Private.h in Headers */,
+				0A68E43A27B5608600E04625 /* YMKLocationLocationListener_Private.h in Headers */,
+				0A68E4A727B5608600E04625 /* YMKTrafficLayer.h in Headers */,
+				0A68E4C627B5608600E04625 /* YRTSubscription.h in Headers */,
+				0A68E46327B5608600E04625 /* YMKRequestPoint_Private.h in Headers */,
+				0A68E3FA27B5608600E04625 /* YMKMapKitFactory.h in Headers */,
+				0A68E49B27B5608600E04625 /* YRTReportData_Private.h in Headers */,
+				0A68E46F27B5608600E04625 /* YMKGeoObjectTapEvent_Private.h in Headers */,
+				0A68E49127B5608600E04625 /* YMKIndoorStateListener_Private.h in Headers */,
+				0A68E44927B5608600E04625 /* YMKIconStyle_Private.h in Headers */,
+				0A68E44527B5608600E04625 /* YMKLayerLoadedListener_Private.h in Headers */,
+				0A68E4C927B5608600E04625 /* YMKAnimation.h in Headers */,
+				0A68E4F127B5608600E04625 /* YMKSublayerFeatureType.h in Headers */,
+				0A68E41B27B5608600E04625 /* YMKCallback_Private.h in Headers */,
+				0A68E3D927B5608600E04625 /* YMKUiExperimentsManager.h in Headers */,
+				0A68E4B527B5608600E04625 /* YMKStorageStorageErrorListener.h in Headers */,
+				0A68E41527B5608600E04625 /* YMKMapView.h in Headers */,
+				0A68E41F27B5608600E04625 /* YMKPlacemark_Private.h in Headers */,
+				0A68E43D27B5608600E04625 /* YMKLocationLocationManager_Private.h in Headers */,
+				0A68E3DE27B5608600E04625 /* YMKGeometry.h in Headers */,
+				0A68E43327B5608600E04625 /* YMKMapkit_Private.h in Headers */,
+				0A68E48727B5608600E04625 /* YMKLocalizedValue_Private.h in Headers */,
+				0A68E4D027B5608600E04625 /* YMKTilesDefaultUrlProvider.h in Headers */,
+				0A68E3EF27B5608600E04625 /* YMKMapType.h in Headers */,
+				0A68E41C27B5608600E04625 /* YMKLayersGeoObjectTapListener_Private.h in Headers */,
+				0A68E49927B5608600E04625 /* YMKUiExperimentsManager_Private.h in Headers */,
+				0A68E44D27B5608600E04625 /* YMKScreenTypes_Private.h in Headers */,
+				0A68E45E27B5608600E04625 /* YMKObjectEvent_Private.h in Headers */,
+				0A68E4CB27B5608600E04625 /* YMKPolyline.h in Headers */,
+				0A68E44427B5608600E04625 /* YMKMap_Private.h in Headers */,
+				0A68E4CD27B5608600E04625 /* YRTEventLogging.h in Headers */,
+				0A68E3CC27B5608600E04625 /* YMKLocationLocationListener.h in Headers */,
+				0A68E3D327B5608600E04625 /* YRTExtern.h in Headers */,
+				0A68E42527B5608600E04625 /* YMKColoredPolyline_Private.h in Headers */,
+				0A68E47227B5608600E04625 /* YMKMapWindow_Private.h in Headers */,
+				0A68E42727B5608600E04625 /* YMKVisibleRegion_Private.h in Headers */,
+				0A68E42B27B5608600E04625 /* YMKStorageStorageManager_Private.h in Headers */,
+				0A68E48F27B5608600E04625 /* YMKStorageStorageErrorListener_Private.h in Headers */,
+				0A68E4A527B5608600E04625 /* YMKXyPoint.h in Headers */,
+				0A68E4A927B5608600E04625 /* YMKLayerLoadedListener.h in Headers */,
+				0A68E4AE27B5608600E04625 /* YMKUserLocation.h in Headers */,
+				0A68E4D127B5608600E04625 /* YMKLocationError.h in Headers */,
+				0A68E4E927B5608600E04625 /* YMKZoomFocusPointMode.h in Headers */,
+				0A68E42927B5608600E04625 /* YMKMapCameraListener_Private.h in Headers */,
+				0A68E42327B5608600E04625 /* YMKOfflineCacheDataMoveListener_Private.h in Headers */,
+				0A68E4E027B5608600E04625 /* YRTMiidManager.h in Headers */,
+				0A68E3F227B5608600E04625 /* YMKRotationType.h in Headers */,
+				0A68E45927B5608600E04625 /* YMKViewArea_Private.h in Headers */,
+				0A68E46027B5608600E04625 /* YMKTileProvider_Private.h in Headers */,
+				0A68E4B227B5608600E04625 /* YMKVisibleRegion.h in Headers */,
+				0A68E43F27B5608600E04625 /* YMKSpannableString_Private.h in Headers */,
+				0A68E45227B5608600E04625 /* YMKTrafficRoadEventTapInfo_Private.h in Headers */,
+				0A68E4C227B5608600E04625 /* YMKProjection.h in Headers */,
+				0A68E40927B5608600E04625 /* YRTModelProviderFactory.h in Headers */,
+				0A68E3D227B5608600E04625 /* YMKIconSet.h in Headers */,
+				0A68E40C27B5608600E04625 /* YMKZoomRange.h in Headers */,
+				0A68E3DC27B5608600E04625 /* YRTAnimatedModelProvider.h in Headers */,
+				0A68E47727B5608600E04625 /* YMKLayerOptions_Private.h in Headers */,
+				0A68E46927B5608600E04625 /* YMKTime_Private.h in Headers */,
+				0A68E41127B5608600E04625 /* YMKOverzoomMode.h in Headers */,
+				0A68E3E527B5608600E04625 /* YMKMapObjectVisitor.h in Headers */,
+				0A68E46D27B5608600E04625 /* YMKTilesUrlProvider_Private.h in Headers */,
+				0A68E4B727B5608600E04625 /* YRTCollection_Private.h in Headers */,
+				0A68E47F27B5608600E04625 /* YRTEventLogging_Private.h in Headers */,
+				0A68E4F027B5608600E04625 /* YMKCompositeIcon.h in Headers */,
+				0A68E4BB27B5608600E04625 /* YMKPlacemark.h in Headers */,
+				0A68E4F927B5608600E04625 /* YMKAttribution.h in Headers */,
+				0A68E47827B5608600E04625 /* YMKDebugInfo_Private.h in Headers */,
+				0A68E46827B5608600E04625 /* YMKPersonalizedPoiLayer_Private.h in Headers */,
+				0A68E42F27B5608600E04625 /* YRTRuntime_Private.h in Headers */,
+				0A68E46A27B5608600E04625 /* YMKOfflineCacheCompletionHandler_Private.h in Headers */,
+				0A68E49027B5608600E04625 /* YMKDirection_Private.h in Headers */,
+				0A68E43727B5608600E04625 /* YMKPersonalizedPoiTapInfo_Private.h in Headers */,
+				0A68E40327B5608600E04625 /* YRTRuntime.h in Headers */,
+				0A68E3F827B5608600E04625 /* YMKLogoAlignment.h in Headers */,
+				0A68E42827B5608600E04625 /* YMKOfflineCacheManager_Private.h in Headers */,
+				0A68E4C727B5608600E04625 /* YMKTileId.h in Headers */,
+				0A68E48327B5608600E04625 /* YMKZoomRange_Private.h in Headers */,
+				0A68E46C27B5608600E04625 /* YMKGeoObjectCollection_Private.h in Headers */,
+				0A68E4F427B5608600E04625 /* YMKMapWindow.h in Headers */,
+				0A68E4CE27B5608600E04625 /* YRTErrors.h in Headers */,
+				0A68E4C327B5608600E04625 /* YMKTime.h in Headers */,
+				0A68E4D427B5608600E04625 /* YMKOfflineCacheRegion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A8C8EE925387A0C00F5C247 /* YandexMapsMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8C8EF225387A0D00F5C247 /* Build configuration list for PBXNativeTarget "YandexMapsMobile" */;
+			buildPhases = (
+				8A8C8EE525387A0C00F5C247 /* Headers */,
+				8A8C8EE625387A0C00F5C247 /* Sources */,
+				8A8C8EE725387A0C00F5C247 /* Frameworks */,
+				8A8C8EE825387A0C00F5C247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexMapsMobile;
+			productName = GoogleMaps;
+			productReference = 8A8C8EEA25387A0C00F5C247 /* YandexMapsMobile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A8C8EE125387A0C00F5C247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8A8C8EE925387A0C00F5C247 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A8C8EE425387A0C00F5C247 /* Build configuration list for PBXProject "YandexMaps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A8C8EE025387A0C00F5C247;
+			productRefGroup = 8A8C8EEB25387A0C00F5C247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A8C8EE925387A0C00F5C247 /* YandexMapsMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A8C8EE825387A0C00F5C247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A68E50627B5608700E04625 /* YandexMapsMobile.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A8C8EE625387A0C00F5C247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A66422225398783000E9321 /* Simulator Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Simulator Release";
+		};
+		8A66422325398783000E9321 /* Simulator Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 050000;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YandexMapsMobile/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 4.0.0;
+				MODULEMAP_FILE = Carthage/Build/iOS/YandexMapsMobile.framework/Modules/module.modulemap;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandex.ios.YandexMaps;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Simulator Release";
+		};
+		8A8C8EF025387A0D00F5C247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A8C8EF125387A0D00F5C247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A8C8EF325387A0D00F5C247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 050000;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YandexMapsMobile/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 4.0.0;
+				MODULEMAP_FILE = Carthage/Build/iOS/YandexMapsMobile.framework/Modules/module.modulemap;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandex.ios.YandexMaps;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A8C8EF425387A0D00F5C247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 050000;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YandexMapsMobile/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 4.0.0;
+				MODULEMAP_FILE = Carthage/Build/iOS/YandexMapsMobile.framework/Modules/module.modulemap;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandex.ios.YandexMaps;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A8C8EE425387A0C00F5C247 /* Build configuration list for PBXProject "YandexMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8C8EF025387A0D00F5C247 /* Debug */,
+				8A8C8EF125387A0D00F5C247 /* Release */,
+				8A66422225398783000E9321 /* Simulator Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8C8EF225387A0D00F5C247 /* Build configuration list for PBXNativeTarget "YandexMapsMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8C8EF325387A0D00F5C247 /* Debug */,
+				8A8C8EF425387A0D00F5C247 /* Release */,
+				8A66422325398783000E9321 /* Simulator Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A8C8EE125387A0C00F5C247 /* Project object */;
+}
